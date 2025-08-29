@@ -1,0 +1,38 @@
+[
+  {
+    "outputFileName": "assets/css/docs.min.css",
+    "inputFiles": [
+      "assets/css/docs.css"
+    ]
+  },
+  {
+    "outputFileName": "assets/js/Pages/blogs.min.js",
+    "inputFiles": [
+      "assets/js/Pages/blogs.min.js"
+    ]
+  },
+  {
+    "outputFileName": "assets/js/Pages/defaultpage.min.js",
+    "inputFiles": [
+      "assets/js/Pages/defaultpage.js"
+    ]
+  },
+  {
+    "outputFileName": "assets/js/Pages/product-details.min.js",
+    "inputFiles": [
+      "assets/js/Pages/product-details.min.js"
+    ]
+  },
+  {
+    "outputFileName": "assets/js/Pages/shop-product.min.js",
+    "inputFiles": [
+      "assets/js/Pages/shop-product.min.js"
+    ]
+  },
+  {
+    "outputFileName": "assets/css/theme.min.css",
+    "inputFiles": [
+      "assets/css/theme.css"
+    ]
+  }
+]
