@@ -21,6 +21,25 @@
             display:block !important;
         }
     </style>
+                 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Checkout,
+      "item": "https://archidplydecor.com/checkout"
+    }
+  ]
+}
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <main id="content" class="wrapper layout-page" style="background: #fbf1e9">

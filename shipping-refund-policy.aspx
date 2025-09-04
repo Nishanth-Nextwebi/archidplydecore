@@ -1,10 +1,10 @@
 ﻿<%@ Page Title="Shipping & Refund Policy " Language="C#" MasterPageFile="~/UserMaster.master" AutoEventWireup="true" CodeFile="shipping-refund-policy.aspx.cs" Inherits="shipping_refund_policy" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-        <meta name="keywords" content="shipping policy, refund policy, ArchidPly Decor, plywood delivery, best plywood in india, laminated plywood, plywood company in india, plywood in bangalore, furniture plywood, flush doors" />
+    <meta name="keywords" content="shipping policy, refund policy, ArchidPly Decor, plywood delivery, best plywood in india, laminated plywood, plywood company in india, plywood in bangalore, furniture plywood, flush doors" />
 
-<meta name="description" content="Learn about shipping and refund policies at ArchidPly Decor. Hassle-free delivery of plywood & doors across Bangalore and India. " />
-     <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+    <meta name="description" content="Learn about shipping and refund policies at ArchidPly Decor. Hassle-free delivery of plywood & doors across Bangalore and India. " />
+    <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
     <style>
         .policy-wrap p {
             margin-bottom: 1.5rem; /* Adds space between paragraphs */
@@ -23,6 +23,25 @@
             margin-bottom: 2.5rem; /* Adds space below the main heading */
         }
     </style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Shipping Refund Policy,
+      "item": "https://archidplydecor.com/shipping-refund-policy.aspx"
+    }
+  ]
+}
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <main id="content" class="wrapper layout-page">

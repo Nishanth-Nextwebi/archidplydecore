@@ -1,7 +1,31 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserMaster.master" AutoEventWireup="true" CodeFile="blog-detail.aspx.cs" Inherits="blog_detail" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-     <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+    <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blogs",
+      "item": "https://archidplydecor.com/blogs"
+    },{
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Blog Details",
+      "item": "https://archidplydecor.com/blog/<%=strBlogUrl %>"
+    }
+  ]
+}
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <main id="content" class="wrapper layout-page">
@@ -12,6 +36,7 @@
                     <nav class="py-4 lh-30px" aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center py-1 mb-0">
                             <li class="breadcrumb-item"><a title="Home" href="/">Home</a></li>
+                            <li class="breadcrumb-item"><a title="Blogs" href="/blogs">Blogs</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Blog Details</li>
                         </ol>
                     </nav>
@@ -35,7 +60,7 @@
                                 <li class="list-inline-item px-6"><%=StrPostedOn %></li>
                             </ul>
                         </div>
-                            <img alt="" class="w-100" src="/<%=StrImgUrl %>" loading="lazy" data-ll-status="loaded">
+                        <img alt="" class="w-100" src="/<%=StrImgUrl %>" loading="lazy" data-ll-status="loaded">
 
                         <p class=" fs-18px text-body-emphasis mt-5 mb-6"><%=strShortDesc %></p>
 
@@ -49,7 +74,7 @@
         </section>
 
 
-        
+
     </main>
 </asp:Content>
 

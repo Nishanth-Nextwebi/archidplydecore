@@ -46,7 +46,6 @@ $(document).ready(function () {
 
 function BindAllBlogs() {
 
-
     var pno = "1";
     if ($(".pPagination a").hasClass("current")) {
         pno = $(".pPagination .current").attr('id').split('_')[1];
@@ -69,7 +68,7 @@ function BindAllBlogs() {
                 pLength = products[0].TotalCount;
 
                 listings += "<div class='col-md-6 col-lg-4 mb-2'>";
-                listings += "   <article class='card card-post-grid-1 blog-card bg-transparent border-0' data-animate='fadeInUp'>";
+                listings += "   <article class='card card-post-grid-1 blog-card bg-transparent border-0'>";
                 listings += "       <figure class='card-img-top position-relative mb-5'>";
                 listings += "           <a href='" + blogurl +"' class='hover-shine hover-zoom-in d-block' title='" + products[i].Title + "'>";
                 listings += "               <img src='" + img + "' class='img-fluid w-100 loaded' alt='" + products[i].Title + "' width='370' height='450' loading='lazy'>";

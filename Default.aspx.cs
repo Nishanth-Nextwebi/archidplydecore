@@ -188,7 +188,7 @@ public partial class _Default : System.Web.UI.Page
                         <div class='testimonial-card' data-animate='fadeInUp'>
                             <p>" + story.Details + @"</p>
                             <div class='meta-details'>
-                                <h4>" + story.Name + @"</h4>
+                                <span>" + story.Name + @"</span>
                                 <span>" + story.Designation + @"</span>
                             </div>
                         </div>

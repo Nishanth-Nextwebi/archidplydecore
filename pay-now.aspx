@@ -34,7 +34,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet" />
     <link href="/Admin/assets/plugins/notification/snackbar/snackbar.min.css" rel="stylesheet" />
-     <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+    <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
     <style>
         /*
         This is extra css later need to modify
@@ -43,12 +43,14 @@
             font-size: calc(13px + 4*(100vw - 320px)/1600);
             margin-bottom: 10px;
         }
+
         .placeOrderBtn {
-    margin-top: 20px;
-}
+            margin-top: 20px;
+        }
+
         .payNowPageSec {
             margin: 30px 0;
-            overflow:hidden;
+            overflow: hidden;
         }
 
             .payNowPageSec .payNowProductContainer {
@@ -124,18 +126,37 @@
         .cartSec .allCartProduct .cartBox .detailBox h3 {
             font-size: 18px;
         }
+
         .dropdown-toggle::after {
-            margin-top:7px;
+            margin-top: 7px;
         }
     </style>
-
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Pay now",
+      "item": "https://archidplydecor.com/Pay-now.aspx"
+    }
+  ]
+}
+    </script>
 </head>
 <body>
     <div class="sticky-area">
         <div class="main-header nav navbar bg-body navbar-light navbar-expand-xl py-6 py-xl-0">
             <div class="container-xxl container">
                 <div class="d-flex d-xl-none w-100">
-                 
+
 
                     <div class="d-flex mx-auto">
                         <a href="/" class="navbar-brand px-8 py-4 mx-auto">
@@ -434,7 +455,7 @@
                                     </svg>
                                 </a>
                             </div>
-                           <%-- <div class="px-5 d-none d-xl-inline-block">
+                            <%-- <div class="px-5 d-none d-xl-inline-block">
                                 <a class="position-relative lh-1 color-inherit text-decoration-none"
                                     href="/cart">
                                     <svg class="icon icon-star-light">
@@ -455,89 +476,89 @@
         <div class="payNowPageSec cartSec">
 
             <div class="container">
-        
-            <div class="row justify-content-center fullCartBag">
-                <!-- Price Box -->
+
+                <div class="row justify-content-center fullCartBag">
+                    <!-- Price Box -->
 
 
 
-                <!-- Address Box -->
-                <div class="col-lg-8 col-md-12">
-                    <div class="allCartProduct">
-                        <div class="row gy-5">
-                            <div class="col-lg-12">
-                                <div class="payNowProductContainer">
-                                    <h3>Ordered Items
-                                    </h3>
-                                    <div class="infoBox">
-                                        <%=strAllOrderItems %>
+                    <!-- Address Box -->
+                    <div class="col-lg-8 col-md-12">
+                        <div class="allCartProduct">
+                            <div class="row gy-5">
+                                <div class="col-lg-12">
+                                    <div class="payNowProductContainer">
+                                        <h3>Ordered Items
+                                        </h3>
+                                        <div class="infoBox">
+                                            <%=strAllOrderItems %>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="AddressBox">
+                                        <h3>
+                                            <img src="images_/carting.png" width="50" height="50" />
+                                            Address</h3>
+                                        <div class="infoBox">
+                                            <%=strDelivery %>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 justify-content-center">
+                                    <div class="AddressBox">
+                                        <h3>Price Details</h3>
+                                        <div class="infoBox">
+                                            <div class="ToAppendCouponApplied">
+                                                <p runat="server" id="divsub">Item Total <span class="toRight total"><span class="DiscountEleClass"><%=strSubTotal %></span><del runat="server" id="divDiscount" class="ActualEleClass"><%=strSubTotalWithDiscount %></del></span></p>
+                                                <p>Advance Amount <span class="toRight total"><span class="DiscountEleClass"><%=strAdv %></span></span></p>
+                                                <p>Balance Amount <span class="toRight total"><span class="DiscountEleClass"><%=strBal %></span></span></p>
+                                                <p runat="server" id="divship">Delivery Fee <span class="toRight DeliveryFee"><%=strShipping %></span></p>
+                                                <p runat="server" id="divCouponDis" class="RemoveOnCouponRemoved">Applied Offer <span class="toRight DeliveryFee"><%=strCoupnDiscount %></span></p>
+                                            </div>
+                                            <hr />
+                                            <div class="grandTotal">
+                                                <p runat="server" id="divgrand">Grand Total <span class="toRight"><span class="DiscountEleClass GrandTotalForCoupon"><%=strTotal %></span></span></p>
+                                            </div>
+                                            <br />
+                                            <div class="totalOffer">
+                                                <p class="text-success"><span class="DifferenceEleClass"><%=strTotalDiscount %></span> saved so far on this order!</p>
+                                            </div>
+                                        </div>
+                                        <div class="placeOrderBtn">
+                                            <form action="payment-status.aspx" method="post">
+                                                <input class="btn btn-animation" type="hidden" value="<%=Request.QueryString["order"]%>" name="orderIdd" />
+                                                <input class="btn btn-animation" type="hidden" value="<%=buyerAmount %>" name="buyerAmount" />
+                                                <script
+                                                    src="https://checkout.razorpay.com/v1/checkout.js"
+                                                    data-key="<%=ConfigurationManager.AppSettings["razorid"] %>"
+                                                    data-amount="<%=buyerAmount %>"
+                                                    data-name="ArchidPly Decor"
+                                                    data-description="ArchidPly Decor Order"
+                                                    data-order_id="<%=orderIdd%>"
+                                                    data-image="<%=ConfigurationManager.AppSettings["domain"]+"/assets/imgs/archidply-favicon.png" %>"
+                                                    data-prefill.name="<%=buyerName%>"
+                                                    data-prefill.email="<%=buyerEmail%>"
+                                                    data-prefill.contact="<%=BuyerMobile%>"
+                                                    data-theme.color="#2A007C"></script>
+                                                <input type="hidden" class="btn btn-animation" value="Hidden Element" id="btnSubmit1" name="hidden" />
+                                                <script>
+                                                    $(document).ready(function () {
+                                                        $(".razorpay-payment-button").click();
+                                                        $(".razorpay-payment-button").addClass("btn btn-primary btn-hover-dark  mt-3");
+                                                    });
+                                                </script>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="AddressBox">
-                                    <h3>
-                                        <img src="images_/carting.png" width="50" height="50" />
-                                        Address</h3>
-                                    <div class="infoBox">
-                                        <%=strDelivery %>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-12 justify-content-center">
-                                <div class="AddressBox">
-                                    <h3>Price Details</h3>
-                                    <div class="infoBox">
-                                        <div class="ToAppendCouponApplied">
-                                            <p runat="server" id="divsub">Item Total <span class="toRight total"><span class="DiscountEleClass"><%=strSubTotal %></span><del runat="server" id="divDiscount" class="ActualEleClass"><%=strSubTotalWithDiscount %></del></span></p>
-                                            <p>Advance Amount <span class="toRight total"><span class="DiscountEleClass"><%=strAdv %></span></span></p>
-                                            <p>Balance Amount <span class="toRight total"><span class="DiscountEleClass"><%=strBal %></span></span></p>
-                                            <p runat="server" id="divship">Delivery Fee <span class="toRight DeliveryFee"><%=strShipping %></span></p>
-                                            <p runat="server" id="divCouponDis" class="RemoveOnCouponRemoved">Applied Offer <span class="toRight DeliveryFee"><%=strCoupnDiscount %></span></p>
-                                        </div>
-                                        <hr />
-                                        <div class="grandTotal">
-                                            <p runat="server" id="divgrand">Grand Total <span class="toRight"><span class="DiscountEleClass GrandTotalForCoupon"><%=strTotal %></span></span></p>
-                                        </div>
-                                        <br />
-                                        <div class="totalOffer">
-                                            <p class="text-success"><span class="DifferenceEleClass"><%=strTotalDiscount %></span> saved so far on this order!</p>
-                                        </div>
-                                    </div>
-                                    <div class="placeOrderBtn">
-                                        <form action="payment-status.aspx" method="post">
-                                            <input class="btn btn-animation" type="hidden" value="<%=Request.QueryString["order"]%>" name="orderIdd" />
-                                            <input class="btn btn-animation" type="hidden" value="<%=buyerAmount %>" name="buyerAmount" />
-                                            <script
-                                                src="https://checkout.razorpay.com/v1/checkout.js"
-                                                data-key="<%=ConfigurationManager.AppSettings["razorid"] %>"
-                                                data-amount="<%=buyerAmount %>"
-                                                data-name="ArchidPly Decor"
-                                                data-description="ArchidPly Decor Order"
-                                                data-order_id="<%=orderIdd%>"
-                                                data-image="<%=ConfigurationManager.AppSettings["domain"]+"/assets/imgs/archidply-favicon.png" %>"
-                                                data-prefill.name="<%=buyerName%>"
-                                                data-prefill.email="<%=buyerEmail%>"
-                                                data-prefill.contact="<%=BuyerMobile%>"
-                                                data-theme.color="#2A007C"></script>
-                                            <input type="hidden" class="btn btn-animation" value="Hidden Element" id="btnSubmit1" name="hidden" />
-                                            <script>
-                                                $(document).ready(function () {
-                                                    $(".razorpay-payment-button").click();
-                                                    $(".razorpay-payment-button").addClass("btn btn-primary btn-hover-dark  mt-3");
-                                                });
-                                            </script>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
-
                     </div>
+
                 </div>
-
             </div>
-                    </div>
         </div>
     </div>
     <footer class="footer bg-image">
@@ -687,29 +708,29 @@
     </footer>
 
 
-<script src="/assets/vendors/bootstrap/js/bootstrap.bundle.js"></script>
-<script src="/assets/vendors/clipboard/clipboard.min.js"></script>
-<script src="/assets/vendors/vanilla-lazyload/lazyload.min.js"></script>
-<script src="/assets/vendors/waypoints/jquery.waypoints.min.js"></script>
-<script src="/assets/vendors/lightgallery/lightgallery.min.js"></script>
-<script src="/assets/vendors/lightgallery/plugins/zoom/lg-zoom.min.js"></script>
-<script src="/assets/vendors/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script>
-<script src="/assets/vendors/lightgallery/plugins/video/lg-video.min.js"></script>
-<script src="/assets/vendors/lightgallery/plugins/vimeoThumbnail/lg-vimeo-thumbnail.min.js"></script>
-<script src="/assets/vendors/isotope/isotope.pkgd.min.js"></script>
-<script src="/assets/vendors/slick/slick.min.js"></script>
-<script src="/assets/vendors/gsap/gsap.min.js"></script>
-<script src="/assets/vendors/gsap/ScrollToPlugin.min.js"></script>
-<script src="/assets/vendors/gsap/ScrollTrigger.min.js"></script>
-<script src="/assets/vendors/mapbox-gl/mapbox-gl.min.js"></script>
-<script src="/assets/js/theme.min.js"></script>
-<script src="/assets/js/script.js"></script>
-<script src="/assets/js/Pages/user-master.js"></script>
-<script src="/Admin/assets/plugins/notification/snackbar/snackbar.min.js"></script>
-<script src="/Admin/assets/plugins/sweetalerts/custom-sweetalert.js"></script>
-<script src="/Admin/assets/plugins/sweetalerts/sweetalert2.min.js"></script>
-<script src="/Admin/assets/plugins/sweetalerts/sweetalert.js"></script>
-      <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+    <script src="/assets/vendors/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="/assets/vendors/clipboard/clipboard.min.js"></script>
+    <script src="/assets/vendors/vanilla-lazyload/lazyload.min.js"></script>
+    <script src="/assets/vendors/waypoints/jquery.waypoints.min.js"></script>
+    <script src="/assets/vendors/lightgallery/lightgallery.min.js"></script>
+    <script src="/assets/vendors/lightgallery/plugins/zoom/lg-zoom.min.js"></script>
+    <script src="/assets/vendors/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script>
+    <script src="/assets/vendors/lightgallery/plugins/video/lg-video.min.js"></script>
+    <script src="/assets/vendors/lightgallery/plugins/vimeoThumbnail/lg-vimeo-thumbnail.min.js"></script>
+    <script src="/assets/vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="/assets/vendors/slick/slick.min.js"></script>
+    <script src="/assets/vendors/gsap/gsap.min.js"></script>
+    <script src="/assets/vendors/gsap/ScrollToPlugin.min.js"></script>
+    <script src="/assets/vendors/gsap/ScrollTrigger.min.js"></script>
+    <script src="/assets/vendors/mapbox-gl/mapbox-gl.min.js"></script>
+    <script src="/assets/js/theme.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/Pages/user-master.js"></script>
+    <script src="/Admin/assets/plugins/notification/snackbar/snackbar.min.js"></script>
+    <script src="/Admin/assets/plugins/sweetalerts/custom-sweetalert.js"></script>
+    <script src="/Admin/assets/plugins/sweetalerts/sweetalert2.min.js"></script>
+    <script src="/Admin/assets/plugins/sweetalerts/sweetalert.js"></script>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
         <symbol id="icon-bedroom" viewBox="0 0 46 32">
             <path d="M44.421 15.217v-9.803c0-2.985-2.428-5.414-5.414-5.414h-31.82c-2.985 0-5.414 2.428-5.414 5.414v9.803c-1.080 0.86-1.775 2.185-1.775 3.67v4.872c0 2.587 2.105 4.692 4.692 4.692h2.406v1.744c0 0.997 0.808 1.805 1.805 1.805s1.805-0.808 1.805-1.805v-1.744h24.782v1.744c0 0.997 0.808 1.805 1.805 1.805s1.805-0.808 1.805-1.805v-1.744h2.406c2.587 0 4.692-2.104 4.692-4.692v-4.872c0-1.485-0.694-2.81-1.775-3.67zM7.188 3.609h31.82c0.995 0 1.805 0.81 1.805 1.805v8.782h-3.489v-3.489c0-1.99-1.619-3.609-3.609-3.609h-5.304c-1.99 0-3.609 1.619-3.609 3.609v3.489h-3.407v-3.489c0-1.99-1.619-3.609-3.609-3.609h-5.304c-1.99 0-3.609 1.619-3.609 3.609v3.489h-3.489v-8.782c0-0.995 0.81-1.805 1.805-1.805zM28.41 14.195v-3.489h5.304v3.489h-5.304zM12.481 14.195v-3.489h5.304v3.489h-5.304zM42.587 23.759c0 0.597-0.486 1.083-1.083 1.083h-36.812c-0.597 0-1.083-0.486-1.083-1.083v-4.872c0-0.597 0.486-1.083 1.083-1.083h36.812c0.597 0 1.083 0.486 1.083 1.083 0 0 0 4.872 0 4.872z"></path>
         </symbol>

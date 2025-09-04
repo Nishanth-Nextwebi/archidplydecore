@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="Top Plywood & Laminates in India | Shop Archidply Products" Language="C#" MasterPageFile="~/UserMaster.master" AutoEventWireup="true" CodeFile="shop-products.aspx.cs" Inherits="shop_products" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-     <meta name="description" content="Shop premium plywood, veneers, doors and wood products online at Archidply Decor. Leading manufacturer and supplier across India with quality assured.">
-     <meta name="keywords" content="buy plywood online india, wood supplier india, plywood manufacturers online, veneer sheets supplier, decorative wood doors online, premium plywood shop india, archidply wood products, plywood supplier india, plywood factory online, laminates and veneers india" />
-     <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+    <meta name="description" content="Shop premium plywood, veneers, doors and wood products online at Archidply Decor. Leading manufacturer and supplier across India with quality assured.">
+    <meta name="keywords" content="buy plywood online india, wood supplier india, plywood manufacturers online, veneer sheets supplier, decorative wood doors online, premium plywood shop india, archidply wood products, plywood supplier india, plywood factory online, laminates and veneers india" />
+    <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
     <style>
         .pagination {
             display: flex;
@@ -48,6 +48,25 @@
             background: unset !important;
         }
     </style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Shop Products",
+      "item": "https://archidplydecor.com/shop"
+    } 
+  ]
+}
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 

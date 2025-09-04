@@ -42,7 +42,7 @@ public partial class Admin_banner_images : System.Web.UI.Page
                 txtlink.Text = banner[0].Link;
                 if (banner[0].DesktopImage != "")
                 {
-                    strThumbImage = "<img src='/" + banner[0].DesktopImage + "' style='max-height:60px;' />";
+                    strThumbImage = "<img src='/" + banner[0].DesktopImage + "' style='max-height:60px;' alt='NA' />";
                     lblThumb.Text = banner[0].DesktopImage;
                 }
                 if (banner[0].MobileImage != "")
@@ -167,7 +167,9 @@ public partial class Admin_banner_images : System.Web.UI.Page
                 //{
                 //    ScriptManager.RegisterStartupScript(this, this.GetType(), "Message", "Snackbar.show({pos: 'top-right',text: 'Mobile banner image size should be 400*500 px',actionTextColor: '#fff',backgroundColor: '#ea1c1c'});", true);
                 //    if (btnUpload.Text == "Update")
-                //    {
+                //    {Please select a Mobile image to upload!
+
+
                 //        GetBanner();
                 //    }
                 //    return;
@@ -205,7 +207,7 @@ public partial class Admin_banner_images : System.Web.UI.Page
                         ScriptManager.RegisterStartupScript(this, this.GetType(), "Message", "Snackbar.show({pos: 'top-right',text: 'Access denied. Contact to your administrator',actionTextColor: '#fff',backgroundColor: '#ea1c1c'});", true);
 
                     }
-                }
+                < img src =
                 else
                 {
                     if (CreateUser.CheckAccess(conAP, pageName, "Add", Request.Cookies["ap_aid"].Value))
@@ -216,12 +218,12 @@ public partial class Admin_banner_images : System.Web.UI.Page
 
                             return;
                         }
-                        if (!FileUpload2.HasFile)
-                        {
-                            ScriptManager.RegisterStartupScript(this, this.GetType(), "Message", "Snackbar.show({pos: 'top-right',text: 'Please select a Mobile image to upload!',actionTextColor: '#fff',backgroundColor: '#ea1c1c'});", true);
+                        //if (!FileUpload2.HasFile)
+                        //{
+                        //    ScriptManager.RegisterStartupScript(this, this.GetType(), "Message", "Snackbar.show({pos: 'top-right',text: 'Please select a Mobile image to upload!',actionTextColor: '#fff',backgroundColor: '#ea1c1c'});", true);
 
-                            return;
-                        }
+                        //    return;
+                        //}
 
                         banner.AddedBy = Request.Cookies["ap_aid"].Value;
                         banner.DesktopImage = UploadImage();

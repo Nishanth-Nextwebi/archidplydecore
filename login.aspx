@@ -1,15 +1,34 @@
 ﻿<%@ Page Title="Login | Access Your Account & Orders" Language="C#" MasterPageFile="~/UserMaster.master" AutoEventWireup="true" CodeFile="login.aspx.cs" Inherits="login" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-        <meta name="keywords" content="plywood prices, flush doors cart, wooden doors cart, plywood supplier order, laminated plywood cart, best plywood India buy, plywood company cart, door manufacturers purchase, laminates in Bangalore cart, eco-friendly plywood checkout" />
+    <meta name="keywords" content="plywood prices, flush doors cart, wooden doors cart, plywood supplier order, laminated plywood cart, best plywood India buy, plywood company cart, door manufacturers purchase, laminates in Bangalore cart, eco-friendly plywood checkout" />
 
     <meta name="description" content="Securely log in to your Archidply Decor account to manage orders, track shipments, and view your personalized decor selections. " />
-     <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+    <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
     <style>
         .custom-control.d-flex.form-check {
-    padding-left: 0px !important;
-}
+            padding-left: 0px !important;
+        }
     </style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Login",
+      "item": "https://archidplydecor.com/login"
+    }
+  ]
+}
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <main id="content" class="wrapper layout-page" style="background: #fbf1e9">
@@ -34,7 +53,8 @@
                     <div class="pt-12 pe-10 px-10 pb-12 bg-white b-r-10">
                         <p class="text-center new-hightlight fs-16 mb-10">
                             Don’t have an account yet?
-                            <a href="/signup.aspx"  class="text-black">Sign up</a>  for free</p>
+                            <a href="/signup.aspx" class="text-black">Sign up</a>  for free
+                        </p>
                         <asp:Label runat="server" Visible="false" ID="lblLoginStatus"></asp:Label>
                         <div>
                             <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control mb-5" MaxLength="200" Placeholder="Your email"></asp:TextBox>

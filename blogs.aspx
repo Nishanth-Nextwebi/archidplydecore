@@ -1,37 +1,57 @@
 ﻿<%@ Page Title="ArchidPly Blogs | Plywood Tips & Design Ideas in India" Language="C#" MasterPageFile="~/UserMaster.master" AutoEventWireup="true" CodeFile="blogs.aspx.cs" Inherits="blog" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-        <meta name="keywords" content="plywood blog, ArchidPly Decor blog, plywood buying tips, plywood in bangalore, best plywood in india, home interior plywood, top plywood company, furniture plywood, laminated plywood, flush doors" />
+    <meta name="keywords" content="plywood blog, ArchidPly Decor blog, plywood buying tips, plywood in bangalore, best plywood in india, home interior plywood, top plywood company, furniture plywood, laminated plywood, flush doors" />
 
-<meta name="description" content="Read expert blogs from ArchidPly Decor – plywood trends, home interiors, and buying guides." />
-   <style>
-    .pagination {
-        display: flex;
-        list-style: none;
-        padding: 0;
-    }
-
-    .page-item {
-        margin: 0 5px;
-    }
-
-        .page-item.active a {
-            background-color: #4e7661;
-            color: white;
-            border-color: #4e7661;
+    <meta name="description" content="Read expert blogs from ArchidPly Decor – plywood trends, home interiors, and buying guides." />
+    <style>
+        .pagination {
+            display: flex;
+            list-style: none;
+            padding: 0;
         }
 
-        .page-item.disabled a {
-            pointer-events: none;
-            opacity: 0.6;
+        .page-item {
+            margin: 0 5px;
         }
-       #BlogListBindingSec div {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
+
+            .page-item.active a {
+                background-color: #4e7661;
+                color: white;
+                border-color: #4e7661;
+            }
+
+            .page-item.disabled a {
+                pointer-events: none;
+                opacity: 0.6;
+            }
+
+        #BlogListBindingSec div {
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+    </style>
+    <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blogs",
+      "item": "https://archidplydecor.com/blogs"
+    }
+  ]
 }
-</style>
-     <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <main id="content" class="wrapper layout-page">
@@ -54,8 +74,8 @@
             </div>
         </section>
         <div class="container mb-lg-18 mb-15 pb-3 mainBlogPage" data-animated-id="2">
-                <div class="row " id="BlogListBindingSec">
-                    <%-- <div class="col-md-6 col-lg-4">
+            <div class="row" id="BlogListBindingSec">
+                <%-- <div class="col-md-6 col-lg-4">
                     <article class="card card-post-grid-1 bg-transparent border-0 animate__fadeInUp animate__animated" data-animate="fadeInUp">
                         <figure class="card-img-top position-relative mb-10">
                             <a href="#" class="hover-shine hover-zoom-in d-block" title="How to Plop Hair for Bouncy, Beautiful Curls">
@@ -248,15 +268,15 @@
                         </div>
                     </article>
                 </div>--%>
+            </div>
+            <div class="row mt-12">
+                <div class="col-12 text-center">
+                    <ul class="pagination pPagination justify-content-center">
+                    </ul>
                 </div>
-                            <div class="row mt-12">
-    <div class="col-12 text-center">
-        <ul class="pagination pPagination justify-content-center">
-        </ul>
-    </div>
-</div>
+            </div>
         </div>
     </main>
-    <script src="assets/js/Pages/blogs.min.js"></script>
+    <script src="assets/js/Pages/blogs.js"></script>
 </asp:Content>
 

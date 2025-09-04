@@ -1,4 +1,5 @@
 using AjaxControlToolkit;
+using DocumentFormat.OpenXml.Math;
 using RestSharp.Extensions;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ using System.Web.UI.WebControls;
 public partial class shop_product_detail : System.Web.UI.Page
 {
     SqlConnection conAP = new SqlConnection(ConfigurationManager.ConnectionStrings["conAP"].ConnectionString);
-    public string strUrl, strRelatedProducts, strProductId, strFAQs, strReatings, strRatingTotalCount, strAvgRating, strProductName, strShordDesc, strProdDetails, strProdStatus, strProdSpecifications, strActalPrice, strDiscountPrice, strDiscountpercentage, strProductGallery, strProductRatingTop = "";
+    public string strUrl, strRelatedProducts, strScmeaImages, strMetaDesc, strFAQScheam, strProductImage,strSchemaReview, strProductId, strFAQs, strReatings, strRatingTotalCount, strAvgRating, strProductName, strShordDesc, strProdDetails, strProdStatus, strProdSpecifications, strActalPrice, strDiscountPrice, strDiscountpercentage, strProductGallery, strProductRatingTop = "";
     protected void Page_Load(object sender, EventArgs e)
     {
         strUrl = Convert.ToString(RouteData.Values["ProdUrl"]);
@@ -46,9 +47,11 @@ public partial class shop_product_detail : System.Web.UI.Page
                 }
                 HiddenStockStatus.Value = Prod[0].InStock;
                 strProductName = Prod[0].ProductName;
+                strProductImage = Prod[0].ProductImage;
                 hfProductId.Value = Prod[0].productprs[0].ProductId;
                 productIdHidden.Value = Convert.ToString(Prod[0].Id);
                 strShordDesc = Prod[0].ShortDesc;
+                strMetaDesc = Prod[0].MetaDesc;
                 strProdDetails = Prod[0].FullDesc;
                 strProdSpecifications = Prod[0].Ingredients;
                 strActalPrice = Convert.ToDouble(Prod[0].productprs[0].ActualPrice).ToString("F2");
@@ -67,6 +70,7 @@ public partial class shop_product_detail : System.Web.UI.Page
                     {
                         img += @"<a href='/" + galleries[i].Images + @"' data-gallery='gallery3'>
                         <img src='/" + galleries[i].Images + "' class='lazy-image mb-7 img-fluid h-auto' width='540' height='720' alt=''></a>";
+                    strScmeaImages+= @"'https://archidplydecor.com/" + galleries[i].Images + @"',";
                     }
                     strProductGallery += img;
                 }
@@ -440,11 +444,28 @@ public partial class shop_product_detail : System.Web.UI.Page
                     <p class='fw-semibold fs-6 text-body-emphasis mb-5'>" + rv.Subject + @"</p>
                     <p class='mb-10 fs-6'>" + rv.Message + @"</p>
                 </div>";
+
+                    strSchemaReview += @" {
+          ""@type"": ""Review"",
+          ""name"": """+ rv.Subject + @""",
+          ""author"": {
+            ""@type"": ""Person"",
+            ""name"": """+ rv.UserName + @"""
+          },
+          ""reviewRating"": {
+            ""@type"": ""Rating"",
+            ""ratingValue"": """+ Rating + @""",
+            ""bestRating"": """+ maxRating + @"""
+          },
+          ""datePublished"": """+rv.AddedOn.ToString("yyyy-mm-dd")+@""",
+          ""reviewBody"": """+rv.Message + @"""
+        },";
+                
                 }
             }
             else
             {
-                strReatings += @"<div class='border-bottom no-review pb-7 pt-10'><h3 class=''>No reviews found for this product yet. Be the first to <span><a href='#customer-review' data-bs-toggle='collapse' role='button' aria-expanded='false' aria-controls='customer-review'>write a review!</a></span></h3></div>";
+                strReatings += @" < div class='border-bottom no-review pb-7 pt-10'><h3 class=''>No reviews found for this product yet. Be the first to <span><a href='#customer-review' data-bs-toggle='collapse' role='button' aria-expanded='false' aria-controls='customer-review'>write a review!</a></span></h3></div>";
             }
         }
         catch (Exception ex)
@@ -480,6 +501,15 @@ public partial class shop_product_detail : System.Web.UI.Page
 					<div class='py-8'>" + ban.Answer + @"</div>
 				</div>";
                     index++;
+
+                    strFAQScheam += @"{
+          ""@type"": ""Question"",
+          ""name"": """ + ban.Question + @""",
+          ""acceptedAnswer"": {
+            ""@type"": ""Answer"",
+            ""text"": """+ban.Answer+@"""
+          }
+        },";
                 }
 
                 strFAQs += @"<section class='pb-16 pb-lg-18' data-animated-id='12'>
@@ -496,6 +526,8 @@ public partial class shop_product_detail : System.Web.UI.Page
 </div>
 	</div>
               </section>";
+
+               
             }
         }
         catch (Exception ex)

@@ -142,6 +142,25 @@
 }
     </style>    
     <link href="Admin/assets/libs/snackbar/snackbar.min.css" rel="stylesheet" />
+            <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Contact Us",
+      "item": "https://archidplydecor.com/contact-us"
+    }
+  ]
+}
+</script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <main id="content" class="wrapper layout-page investor-contact pt-0 pb-10" style="background: #f1efec url('assets/imgs/bg-img2.png'); background-repeat: no-repeat; background-position: right; background-attachment: fixed">

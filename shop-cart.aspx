@@ -5,8 +5,25 @@
 
     <meta name="description" content="Review your Archidply Decor cart items – plywood, laminates, doors & more. Proceed to checkout for a seamless purchase. Secure & fast delivery across India. Order now!" />
      <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
-    <style>
-    </style>
+             <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "cart,
+      "item": "https://archidplydecor.com/cart"
+    }
+  ]
+}
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <main id="content" class="wrapper layout-page pb-15" style="background: #fbf1e9">

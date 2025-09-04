@@ -150,6 +150,53 @@
     </style>
     <link href="/Admin/assets/libs/snackbar/snackbar.min.css" rel="stylesheet" />
 
+    <link
+        rel="preload"
+        as="image"
+        href="https://archidplydecor.com/UploadImages/013393a0-79e1-4726-9691-d20e8adc3c90-deskBanImg.webp"
+        type="image/webp"
+        fetchpriority="high" />
+    <link
+        rel="preload"
+        as="image"
+        href="https://archidplydecor.com/UploadImages/7840fc96-4881-4668-abf5-7190e17173c2-deskBanImg.webp"
+        type="image/webp"
+        fetchpriority="high" />
+
+    <link
+        rel="preload"
+        as="image"
+        href="https://archidplydecor.com/UploadImages/f8baab95-d01b-4d4d-84dd-6f5d30011e09-deskBanImg.webp"
+        type="image/webp"
+        fetchpriority="high" />
+
+    <link
+        rel="preload"
+        as="image"
+        href="https://archidplydecor.com/UploadImages/cb840c86-075d-45cb-afff-61234b0e3c14-deskBanImg.webp"
+        type="image/webp"
+        fetchpriority="high" />
+
+    <link
+        rel="preload"
+        as="image"
+        href="https://archidplydecor.com/UploadImages/d4b951a8-526b-479d-8931-13e2cda164ea-deskBanImg.webp"
+        type="image/webp"
+        fetchpriority="high" />
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    }
+  ]
+}
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <asp:ScriptManager runat="server" ID="scriptManager"></asp:ScriptManager>
@@ -218,7 +265,7 @@
                           Intensive Glow C&#43; Serum
                         </h3> -->
                             <img src="/assets/imgs/pplogo.png"
-                                alt=""
+                                alt="img"
                                 class="sister-company" />
                             <div class="mt-7">
                                 <a href="/products-categories/pureply" class="btn btn-white px-6 shadow-sm">Explore More</a>
@@ -1419,13 +1466,16 @@
             });
 
 
-
             document.addEventListener("DOMContentLoaded", function () {
-                setTimeout(function () {
-                    const myModal = new bootstrap.Modal(document.getElementById('quickEnquiryModal'));
-                    myModal.show();
-                }, 5000);
+                if (!sessionStorage.getItem("modalShown")) {
+                    setTimeout(function () {
+                        const myModal = new bootstrap.Modal(document.getElementById('quickEnquiryModal'));
+                        myModal.show();
+                        sessionStorage.setItem("modalShown", "true");
+                    }, 8000);
+                }
             });
+
 
 
 

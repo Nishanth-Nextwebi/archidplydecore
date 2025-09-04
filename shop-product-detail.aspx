@@ -82,7 +82,79 @@
             width: 24px !important;
         }
     </style>
-
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "@id": "<%=Request.Url.AbsoluteUri %>",
+      "name": "<%=strProductName %>",
+      "image": [ 
+        "<%=strScmeaImages %>"
+      ],
+      "description": "<%=strMetaDesc %>",
+      "brand": {
+        "@type": "Brand",
+        "name": "Archidply Décor"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "<%=Request.Url.AbsoluteUri %>",
+        "priceCurrency": "INR",
+        "price": <%=strDiscountPrice %>,
+        "priceValidUntil": "2025-12-31",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
+          "@type": "Organization",
+          "name": "Archidply Décor"
+        }
+      },
+   "aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.7",
+"reviewCount": "89",
+"bestRating": "5",
+"worstRating": "1"
+},
+      "review": [
+        <%=strSchemaReview %>
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        <%=strFAQScheam %>
+      ]
+    }
+  ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Shop",
+      "item": "https://archidplydecor.com/shop"
+    },{
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Shop Products,
+      "item": "https://archidplydecor.com/shop-products/<%=strUrl %>"
+    }
+  ]
+}
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <asp:ToolkitScriptManager ID="asp" runat="server"></asp:ToolkitScriptManager>
