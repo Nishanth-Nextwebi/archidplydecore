@@ -42,7 +42,7 @@ public partial class Admin_banner_images : System.Web.UI.Page
                 txtlink.Text = banner[0].Link;
                 if (banner[0].DesktopImage != "")
                 {
-                    strThumbImage = "<img src='/" + banner[0].DesktopImage + "' style='max-height:60px;' alt='NA' />";
+                    strThumbImage = "<img src='/" + banner[0].DesktopImage + "' style='max-height:60px;' />";
                     lblThumb.Text = banner[0].DesktopImage;
                 }
                 if (banner[0].MobileImage != "")
@@ -207,7 +207,7 @@ public partial class Admin_banner_images : System.Web.UI.Page
                         ScriptManager.RegisterStartupScript(this, this.GetType(), "Message", "Snackbar.show({pos: 'top-right',text: 'Access denied. Contact to your administrator',actionTextColor: '#fff',backgroundColor: '#ea1c1c'});", true);
 
                     }
-                < img src =
+                }
                 else
                 {
                     if (CreateUser.CheckAccess(conAP, pageName, "Add", Request.Cookies["ap_aid"].Value))
