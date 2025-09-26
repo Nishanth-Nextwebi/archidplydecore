@@ -6,6 +6,25 @@
 
     <meta name="description" content="Join ArchidPly Decor – top plywood manufacturer in India. Explore jobs in design, sales & manufacturing at our Bangalore offices. " />
     <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Career",
+      "item": "https://archidplydecor.com/career"
+    }
+  ]
+}
+</script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 

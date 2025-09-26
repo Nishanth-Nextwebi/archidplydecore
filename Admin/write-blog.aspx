@@ -47,7 +47,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <label>Posted On<sup>*</sup></label>
-                                    <asp:TextBox runat="server" MaxLength="100" class="form-control mb-2 mr-sm-2  datepickerCurrent datepicker" ID="txtDate" placeholder="Posted On" />
+                                    <asp:TextBox runat="server" MaxLength="100" class="form-control mb-2 mr-sm-2  datepicker" ID="txtDate" placeholder="Posted On" />
                                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtDate" Display="Dynamic" ForeColor="Red" SetFocusOnError="true" ValidationGroup="Save" ErrorMessage="Field can't be empty"></asp:RequiredFieldValidator>
                                 </div>
                                  <div class="col-lg-12 mb-2">

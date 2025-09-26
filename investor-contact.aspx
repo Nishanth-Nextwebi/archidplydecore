@@ -1,19 +1,39 @@
 ﻿<%@ Page Title="Investor Contact | ArchidPly Decor Plywood supplier in India" Language="C#" MasterPageFile="~/UserMaster.master" AutoEventWireup="true" CodeFile="investor-contact.aspx.cs" Inherits="investor_contact" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-        <meta name="keywords" content="investor contact, ArchidPly Decor, plywood company in india, plywood manufacturers, top plywood company, corporate contact, financial queries, plywood business india, premium plywood brand, plywood in bangalore" />
+    <meta name="keywords" content="investor contact, ArchidPly Decor, plywood company in india, plywood manufacturers, top plywood company, corporate contact, financial queries, plywood business india, premium plywood brand, plywood in bangalore" />
 
-<meta name="description" content="Contact ArchidPly Decor’s investor relations team. Reach out for corporate, financial, or partnership queries in India and Bangalore. " />
-     <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+    <meta name="description" content="Contact ArchidPly Decor’s investor relations team. Reach out for corporate, financial, or partnership queries in India and Bangalore. " />
+    <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
     <style>
-        .location-box{
-            min-height:unset !important;
-            height:100% !important;
+        .location-box {
+            min-height: unset !important;
+            height: 100% !important;
         }
-        .bg-overlay::before{
-     background:unset !important;
- }
+
+        .bg-overlay::before {
+            background: unset !important;
+        }
     </style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Investor Contact",
+      "item": "https://archidplydecor.com/investor-contact"
+    }
+  ]
+}
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 

@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <meta name="description" content="Explore ArchidPly Decor showrooms in Bangalore. Discover premium plywood, doors & laminates in person. Plywood showroom in bangalore">
     <meta name="keywords" content="plywood showroom in bangalore, ArchidPly Decor, laminated plywood, veneer plywood, best plywood in india, top plywood company, door manufacturers, flush doors, ply manufacturer, furniture plywood" />
-     <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+    <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
     <style>
         .new-bg {
             background: #f1f1f1;
@@ -19,12 +19,31 @@
                 border-radius: 6px;
             }
 
-       
+
 
         .bg-overlay::before {
             background: unset !important;
         }
     </style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Showroom",
+      "item": "https://archidplydecor.com/showroom"
+    } 
+  ]
+}
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <main id="content" class="wrapper layout-page">
@@ -35,7 +54,7 @@
             <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100" data-bg-src="assets/imgs/ban1/2.png" alt="img">
             </div>
 
-    <div class="position-relative z-index-2 container py-10 py-md-15 py-lg-22">
+            <div class="position-relative z-index-2 container py-10 py-md-15 py-lg-22">
 
                 <h2 class="fs-56px mb-0 text-white text-center">Showroom</h2>
             </div>

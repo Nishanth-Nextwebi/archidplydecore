@@ -1,10 +1,29 @@
 ﻿<%@ Page Title="Sign Up | ArchidPly Decor Best plywood in bangalore, India" Language="C#" MasterPageFile="~/UserMaster.master" AutoEventWireup="true" CodeFile="signup.aspx.cs" Inherits="signup" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-        <meta name="keywords" content="signup ArchidPly, plywood supplier login, ArchidPly Decor account, best plywood in india, laminated plywood, veneer plywood, furniture plywood, plywood in bangalore, top plywood companies, dealer login" />
+    <meta name="keywords" content="signup ArchidPly, plywood supplier login, ArchidPly Decor account, best plywood in india, laminated plywood, veneer plywood, furniture plywood, plywood in bangalore, top plywood companies, dealer login" />
 
-<meta name="description" content="Create your account with ArchidPly Decor to access premium plywood products, pricing, offers & more. " />
-     <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+    <meta name="description" content="Create your account with ArchidPly Decor to access premium plywood products, pricing, offers & more. " />
+    <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Sign up",
+      "item": "https://archidplydecor.com/signup.aspx"
+    } 
+  ]
+}
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <main id="content" class="wrapper layout-page" style="background: #fbf1e9">
@@ -28,7 +47,7 @@
                         <h1 class="mb-6">Sign up</h1>
                     </div>
                     <div class="pt-12 pe-10 px-10 pb-12 bg-white b-r-10">
-                         <p class="text-center new-hightlight fs-16 mb-10">Already have an account? <a href="/login.aspx" class="text-black">Log in</a></p>
+                        <p class="text-center new-hightlight fs-16 mb-10">Already have an account? <a href="/login.aspx" class="text-black">Log in</a></p>
                         <asp:Label runat="server" Visible="false" ID="lblSighUpStatus"></asp:Label>
                         <asp:TextBox ID="txtFirstName" runat="server" MaxLength="100" CssClass="form-control border-1 mb-5 acceptOnlyAlpha" Placeholder="First name"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="fv3" runat="server" ForeColor="Red" ControlToValidate="txtFirstName" SetFocusOnError="true" Display="Dynamic" ValidationGroup="signup1" ErrorMessage="Fields can't be blank"></asp:RequiredFieldValidator>

@@ -1,11 +1,11 @@
 ﻿<%@ Page Title="ArchidPly Product Stories " Language="C#" MasterPageFile="./UserMaster.master" AutoEventWireup="true" CodeFile="product-stories.aspx.cs" Inherits="product_stories" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-        <meta name="keywords" content="ArchidPly Decor, plywood company in india, premium plywood, product stories, laminated plywood, plywood innovation, furniture plywood, top plywood company, eco-friendly plywood, plywood manufacturers" />
+    <meta name="keywords" content="ArchidPly Decor, plywood company in india, premium plywood, product stories, laminated plywood, plywood innovation, furniture plywood, top plywood company, eco-friendly plywood, plywood manufacturers" />
 
-<meta name="description" content="Explore product stories from ArchidPly Decor – innovation, durability & design insights for India's best plywood. Read our journey now " />
+    <meta name="description" content="Explore product stories from ArchidPly Decor – innovation, durability & design insights for India's best plywood. Read our journey now " />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.css" integrity="sha512-UiVP2uTd2EwFRqPM4IzVXuSFAzw+Vo84jxICHVbOA1VZFUyr4a6giD9O3uvGPFIuB2p3iTnfDVLnkdY7D/SJJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+    <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
     <style>
         .section-padding {
             padding: 20px 0px;
@@ -61,11 +61,30 @@
             padding: 5px 10px;
             color: #fff;
         }
-         .bg-overlay::before{
-     background:unset !important;
- }
-       
+
+        .bg-overlay::before {
+            background: unset !important;
+        }
     </style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Product Stories",
+      "item": "https://archidplydecor.com/product-stories"
+    }
+  ]
+}
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <main id="content" class="wrapper layout-page overflow-hidden investor-contact  pb-10" style="background: #f1efec url('assets/imgs/bg-img2.png'); background-repeat: no-repeat; background-position: right; background-attachment: fixed">
@@ -77,7 +96,7 @@
             <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100" data-bg-src="assets/imgs/ban1/2.png">
             </div>
 
-    <div class="position-relative z-index-2 container py-10 py-md-15 py-lg-22">
+            <div class="position-relative z-index-2 container py-10 py-md-15 py-lg-22">
 
                 <h1 class="fs-56px mb-0 text-white text-center">Product Stories
                 </h1>

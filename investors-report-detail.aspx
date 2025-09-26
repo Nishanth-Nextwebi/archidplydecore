@@ -2,6 +2,25 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
      <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Investor report details",
+      "item": "https://archidplydecor.com/investor-report-detail"
+    }
+  ]
+}
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
         <main id="content" class="wrapper layout-page">

@@ -32,6 +32,25 @@
 }
 </style>
      <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blogs",
+      "item": "https://archidplydecor.com/blogs"
+    }
+  ]
+}
+</script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <main id="content" class="wrapper layout-page">
@@ -257,6 +276,6 @@
 </div>
         </div>
     </main>
-    <script src="assets/js/Pages/blogs.min.js"></script>
+    <script src="assets/js/Pages/blogs.js"></script>
 </asp:Content>
 

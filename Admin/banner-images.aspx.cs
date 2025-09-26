@@ -167,7 +167,9 @@ public partial class Admin_banner_images : System.Web.UI.Page
                 //{
                 //    ScriptManager.RegisterStartupScript(this, this.GetType(), "Message", "Snackbar.show({pos: 'top-right',text: 'Mobile banner image size should be 400*500 px',actionTextColor: '#fff',backgroundColor: '#ea1c1c'});", true);
                 //    if (btnUpload.Text == "Update")
-                //    {
+                //    {Please select a Mobile image to upload!
+
+
                 //        GetBanner();
                 //    }
                 //    return;
@@ -216,12 +218,12 @@ public partial class Admin_banner_images : System.Web.UI.Page
 
                             return;
                         }
-                        if (!FileUpload2.HasFile)
-                        {
-                            ScriptManager.RegisterStartupScript(this, this.GetType(), "Message", "Snackbar.show({pos: 'top-right',text: 'Please select a Mobile image to upload!',actionTextColor: '#fff',backgroundColor: '#ea1c1c'});", true);
+                        //if (!FileUpload2.HasFile)
+                        //{
+                        //    ScriptManager.RegisterStartupScript(this, this.GetType(), "Message", "Snackbar.show({pos: 'top-right',text: 'Please select a Mobile image to upload!',actionTextColor: '#fff',backgroundColor: '#ea1c1c'});", true);
 
-                            return;
-                        }
+                        //    return;
+                        //}
 
                         banner.AddedBy = Request.Cookies["ap_aid"].Value;
                         banner.DesktopImage = UploadImage();

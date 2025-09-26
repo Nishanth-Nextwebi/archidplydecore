@@ -33,6 +33,42 @@
             }
         }
     </style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "<%=Request.Url.AbsoluteUri %>",
+  "name": "<%=strProductName %>",
+  "image": [
+<%=strScmeaImages %>
+  ],
+  "description": "<%=strMetaDescription %>",
+  "brand": {
+    "@type": "Brand",
+    "name": "Archidply Décor"
+  },
+  "url": "<%=Request.Url.AbsoluteUri %>"
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Product detail",
+      "item": "https://archidplydecor.com/products/<%=strUrl %>"
+    }
+  ]
+}
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <asp:ToolkitScriptManager ID="asp" runat="server"></asp:ToolkitScriptManager>

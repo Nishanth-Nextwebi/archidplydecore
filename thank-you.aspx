@@ -1,7 +1,26 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserMaster.master" AutoEventWireup="true" CodeFile="thank-you.aspx.cs" Inherits="thank_you" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-     <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Thank you",
+      "item": "https://archidplydecor.com/thank-you"
+    } 
+  ]
+}
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <section class="error-area">

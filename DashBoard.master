@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="/assets/vendors/lightgallery/css/lightgallery-bundle.min.css">
     <link rel="stylesheet" href="/assets/vendors/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="/assets/vendors/animate/animate.min.css">
-    <link rel="stylesheet" href="/assets/vendors/slick/slick.css">
+    <link rel="stylesheet" href="/assets/vendors/slick/slick.min.css">
 
     <link rel="stylesheet" href="/assets/vendors/mapbox-gl/mapbox-gl.min.css">
     <link href="/Admin/assets/plugins/select2/css/select2.min.css" rel="stylesheet" />
@@ -24,11 +24,11 @@
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/theme.min.css">
     <link href="/Admin/assets/plugins/snackbar/snackbar.min.css" rel="stylesheet" />
     <script src="/Admin/assets/plugins/snackbar/snackbar.min.js"></script>
 
-    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/custom.min.css" />
     <style>
         span.navbar-toggler-icon {
             filter: invert(1);
@@ -53,18 +53,206 @@
         })(window, document, 'script', 'dataLayer', 'GTM-TX5F69X4');</script>
     <!-- End Google Tag Manager -->
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PVN89288T5"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PVN89288T5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-PVN89288T5');
-</script>
+        gtag('config', 'G-PVN89288T5');
+    </script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <script src="/Admin/assets/js/jquery-3.6.0.min.js"></script>
     <script src="/Admin/assets/plugins/select2/js/select2.min.js"></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Archidply Décor",
+  "email": "bangalore@archidply.com", 
+  "legalName": "Archidply Décor Ltd.",
+  "telephone": "+91-7022012573",
+  "url": "https://archidplydecor.com/",
+  "logo": "https://archidplydecor.com/assets/imgs/logo.png",
+        "image":"https://archidplydecor.com/images_/s1/SDP_4622.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bangalore, Karnataka, India",
+    "postalCode": "560051",
+    "streetAddress": "Ground Floor & 1st Floor No 50, Millenium Towers, Queens Rd, Swamy Shivanandapuram, Shivaji Nagar",
+            "addressCountry": "IN"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "312",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone":"+91-9591849977",
+      "contactType": "resident representatives",
+      "areaServed": "IN"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91-9513325133",
+      "contactType": "sales",
+      "areaServed": "IN"
+    }
+  ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://archidplydecor.com/#website",
+      "url": "<%=Request.Url.AbsoluteUri %>",
+      "name": "Archidply Décor",
+      "publisher": {
+        "@type": "Organization",
+        "url": "<%=Request.Url.AbsoluteUri %>",
+        "name": "Archidply Décor Ltd.",
+        "@id": "https://archidplydecor.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://archidplydecor.com/#webpage",
+      "url": "<%=Request.Url.AbsoluteUri %>",
+      "inLanguage": "en-IN",
+      "name": "Archidply Decor| Best Manufacturer and Supplier of Plywood and Veneers in India",
+      "isPartOf": {
+        "@id": "https://archidplydecor.com/#website"
+      },
+      "description": "Archidply Decor,a leading manufacturer and supplier of plywood and veneers in India, offers premium quality decorative surfaces, laminates, and interior solutions for residential and commercial spaces."
+    }
+  ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://archidplydecor.com/#localbusiness",
+  "name": "Archidply Décor",
+  "url": "<%=Request.Url.AbsoluteUri %>",
+  "telephone": "+91-7022012573",
+  "email": "bangalore@archidply.com",
+  "image": "https://archidplydecor.com/images_/show/factory.jpg",
+  "priceRange": "1 - 5000",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Ground Floor & 1st Floor No 50, Millenium Towers, Queens Rd, Swamy Shivanandapuram, Shivaji Nagar",
+    "addressLocality": "Bangalore",
+    "addressRegion": "Karnataka",
+    "postalCode": "560051",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 12.9833,
+    "longitude": 77.6045
+  },
+  "openingHours": [
+    "Mo-Fr 08:30-08:00",
+    "Sa 08:00-08:00",
+    "Su Closed"
+  ],
+  "paymentAccepted": [
+    "Cash",
+    "Credit Card",
+    "Debit Card",
+    "Bank Transfer"
+  ],
+  "currenciesAccepted": "INR",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "312",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Ahmedabad"
+    },
+    {
+      "@type": "City",
+      "name": "Bangalore"
+    },
+    {
+      "@type": "City",
+      "name": "Bellary"
+    },
+    {
+      "@type": "City",
+      "name": "Chennai"
+    },
+    {
+      "@type": "City",
+      "name": "Chittor AP"
+    },
+    {
+      "@type": "City",
+      "name": "Coimbatore"
+    },
+    {
+      "@type": "City",
+      "name": "Hyderabad"
+    },
+    {
+      "@type": "City",
+      "name": "Indore"
+    },
+    {
+      "@type": "City",
+      "name": "Karimnagar"
+    },
+    {
+      "@type": "City",
+      "name": "Mumbai"
+    },
+    {
+      "@type": "City",
+      "name": "Namakkal"
+    },
+    {
+      "@type": "City",
+      "name": "Raipur"
+    },
+    {
+      "@type": "City",
+      "name": "Salem"
+    },
+    {
+      "@type": "City",
+      "name": "Tirupati"
+    },
+    {
+      "@type": "City",
+      "name": "Secundrabad"
+    },
+    {
+      "@type": "City",
+      "name": "Vijaywada"
+    },
+    {
+      "@type": "City",
+      "name": "Warrangal"
+    }
+  ],
+  "hasMap": "https://maps.google.com/?q=Archidply+Décor,+Bangalore",
+  "sameAs": "<%=Request.Url.AbsoluteUri %>"
+}
+    </script>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -73,7 +261,7 @@
             height="0" width="0" style="display: none; visibility: hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
-    
+
     <div class="wrapper dashboard-wrapper">
         <div class="d-flex flex-wrap flex-xl-nowrap">
             <div class="db-sidebar bg-body">
@@ -179,10 +367,9 @@
             </div>
         </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.full.min.js"></script>
+    <script src="/Admin/assets/plugins/select2/select2.min.js"></script>
     <script src="../assets/vendors/chartjs/chart.min.js"></script>
-    <script src="../assets/vendors/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/vendors/clipboard/clipboard.min.js"></script>
     <script src="../assets/vendors/vanilla-lazyload/lazyload.min.js"></script>
     <script src="../assets/vendors/waypoints/jquery.waypoints.min.js"></script>

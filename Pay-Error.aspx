@@ -1,7 +1,26 @@
 ﻿<%@ Page Title="Payment Error | ARCHIDPLY DECOR LTD" Language="C#" MasterPageFile="~/UserMaster.master" AutoEventWireup="true" CodeFile="Pay-Error.aspx.cs" Inherits="Pay_Error" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-     <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+    <link rel="canonical" href='<%= Request.Url.AbsoluteUri %>' />
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://archidplydecor.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Pay Error",
+      "item": "https://archidplydecor.com/Pay-Error.aspx"
+    }
+  ]
+}
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <section class="paySuccessPage">
@@ -14,7 +33,7 @@
                             <div class="order-box">
                                 <div class="order-image">
                                     <div class="checkmark text-center">
-                                        <img src="/images_/error-img.gif" class="img-fluid" />
+                                        <img src="/images_/error-img.gif" alt='img' class="img-fluid" />
                                     </div>
                                 </div>
 

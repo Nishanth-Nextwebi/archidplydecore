@@ -12,35 +12,35 @@
     <meta name="google-site-verification" content="__GO1LU1cvpuWX72yd1m-ps983_mcKTrolq0nXTVI8A" />
     <title>ARCHIDPLY DECOR</title>
     <script src="/Admin/assets/js/jquery-3.6.0.min.js"></script>
-    <link href="/Admin/assets/plugins/sweetalerts/sweetalert.css" rel="stylesheet" hreflang="en"/>
-    <link href="/Admin/assets/plugins/sweetalerts/sweetalert2.min.css" rel="stylesheet" hreflang="en"/>
-    <link rel="icon" href="/assets/imgs/archidply-favicon.png" hreflang="en"/>
+    <%-- <link href="/Admin/assets/plugins/sweetalerts/sweetalert.css" rel="stylesheet" hreflang="en" />
+    <link href="/Admin/assets/plugins/sweetalerts/sweetalert2.min.css" rel="stylesheet" hreflang="en" />--%>
+    <link rel="icon" href="/assets/imgs/archidply-favicon.png" hreflang="en" />
     <script src="/assets/vendors/bootstrap/bootstrap-notify.min.js"></script>
-    <script src="/assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <%--<script src="/assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>--%>
     <script src="/assets/vendors/bootstrap/popper.min.js"></script>
-    <link href="assets/css/responsive.min.css" rel="stylesheet" hreflang="en"/>
- <%--   og image--%>
+    <link href="/assets/css/responsive.min.css" rel="stylesheet" hreflang="en" />
+    <%--   og image--%>
     <meta property="og:image" content="https://www.archidplydecor.com/assets/Archidplyogimg.jpg" />
     <link rel="stylesheet"
-        href="/assets/vendors/lightgallery/css/lightgallery-bundle.min.css" hreflang="en"/>
-    <link rel="stylesheet" href="/assets/vendors/fontawesome/css/all.min.css" hreflang="en"/>
-    <link rel="stylesheet" href="/assets/vendors/animate/animate.min.css" hreflang="en"/>
-    <link rel="stylesheet" href="/assets/vendors/slick/slick.css" hreflang="en"/>
-    <link rel="stylesheet" href="/assets/vendors/mapbox-gl/mapbox-gl.min.css" hreflang="en"/>
+        href="/assets/vendors/lightgallery/css/lightgallery-bundle.min.css" hreflang="en" />
+    <link rel="stylesheet" href="/assets/vendors/fontawesome/css/all.min.css" hreflang="en" />
+    <link rel="stylesheet" href="/assets/vendors/animate/animate.min.css" hreflang="en" />
+    <link rel="stylesheet" href="/assets/vendors/slick/slick.min.css" hreflang="en" />
+    <link rel="stylesheet" href="/assets/vendors/mapbox-gl/mapbox-gl.min.css" hreflang="en" />
     <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" hreflang="en"/>
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" hreflang="en" />
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-        rel="stylesheet" hreflang="en"/>
-    <link rel="stylesheet" href="/assets/css/theme.css" hreflang="en"/>
-    <link rel="stylesheet" href="/assets/css/custom.min.css" hreflang="en"/>
+        rel="stylesheet" hreflang="en" />
+    <link rel="stylesheet" href="/assets/css/theme.min.css" hreflang="en" />
+    <link rel="stylesheet" href="/assets/css/custom.min.css" hreflang="en" />
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
-        rel="stylesheet" hreflang="en"/>
+        rel="stylesheet" hreflang="en" />
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet" hreflang="en"/>
-    <link href="/Admin/assets/plugins/notification/snackbar/snackbar.min.css" rel="stylesheet" hreflang="en"/>
+        rel="stylesheet" hreflang="en" />
+    <link href="/Admin/assets/plugins/notification/snackbar/snackbar.min.css" rel="stylesheet" hreflang="en" />
     <script src="/Admin/assets/plugins/notification/snackbar/snackbar.min.js"></script>
-    <link href="/Admin/assets/plugins/flatpickr/flatpickr.min.css" rel="stylesheet" hreflang="en"/>
-    <link href="/Admin/assets/libs/fSelect/fSelect.css" rel="stylesheet" hreflang="en"/>
+    <link href="/Admin/assets/plugins/flatpickr/flatpickr.min.css" rel="stylesheet" hreflang="en" />
+    <link href="/Admin/assets/libs/fSelect/fSelect.css" rel="stylesheet" hreflang="en" />
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
@@ -51,15 +51,204 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-TX5F69X4');</script>
     <!-- End Google Tag Manager -->
-     <!-- Google tag (gtag.js) -->
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PVN89288T5"></script>
- <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag() { dataLayer.push(arguments); }
-     gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PVN89288T5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-     gtag('config', 'G-PVN89288T5');
- </script>
+        gtag('config', 'G-PVN89288T5');
+    </script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Archidply Décor",
+  "email": "bangalore@archidply.com", 
+  "legalName": "Archidply Décor Ltd.",
+  "telephone": "+91-7022012573",
+  "url": "https://archidplydecor.com/",
+  "logo": "https://archidplydecor.com/assets/imgs/logo.png",
+        "image":"https://archidplydecor.com/images_/s1/SDP_4622.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bangalore, Karnataka, India",
+    "postalCode": "560051",
+    "streetAddress": "Ground Floor & 1st Floor No 50, Millenium Towers, Queens Rd, Swamy Shivanandapuram, Shivaji Nagar",
+        "addressCountry": "IN"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "312",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone":"+91-9591849977",
+      "contactType": "resident representatives",
+      "areaServed": "IN"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91-9513325133",
+      "contactType": "sales",
+      "areaServed": "IN"
+    }
+  ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://archidplydecor.com/#website",
+      "url": "<%=Request.Url.AbsoluteUri %>",
+      "name": "Archidply Décor",
+      "publisher": {
+        "@type": "Organization",
+        "url": "<%=Request.Url.AbsoluteUri %>",
+        "name": "Archidply Décor Ltd.",
+        "@id": "https://archidplydecor.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://archidplydecor.com/#webpage",
+      "url": "<%=Request.Url.AbsoluteUri %>",
+      "inLanguage": "en-IN",
+      "name": "Archidply Decor| Best Manufacturer and Supplier of Plywood and Veneers in India",
+      "isPartOf": {
+        "@id": "https://archidplydecor.com/#website"
+      },
+      "description": "Archidply Decor,a leading manufacturer and supplier of plywood and veneers in India, offers premium quality decorative surfaces, laminates, and interior solutions for residential and commercial spaces."
+    }
+  ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://archidplydecor.com/#localbusiness",
+  "name": "Archidply Décor",
+  "url": "<%=Request.Url.AbsoluteUri %>",
+  "telephone": "+91-7022012573",
+  "email": "bangalore@archidply.com",
+  "image": "https://archidplydecor.com/images_/show/factory.jpg",
+  "priceRange": "1 - 5000",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Ground Floor & 1st Floor No 50, Millenium Towers, Queens Rd, Swamy Shivanandapuram, Shivaji Nagar",
+    "addressLocality": "Bangalore",
+    "addressRegion": "Karnataka",
+    "postalCode": "560051",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 12.9833,
+    "longitude": 77.6045
+  },
+  "openingHours": [
+    "Mo-Fr 08:30-08:00",
+    "Sa 08:00-08:00",
+    "Su Closed"
+  ],
+  "paymentAccepted": [
+    "Cash",
+    "Credit Card",
+    "Debit Card",
+    "Bank Transfer"
+  ],
+  "currenciesAccepted": "INR",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "312",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Ahmedabad"
+    },
+    {
+      "@type": "City",
+      "name": "Bangalore"
+    },
+    {
+      "@type": "City",
+      "name": "Bellary"
+    },
+    {
+      "@type": "City",
+      "name": "Chennai"
+    },
+    {
+      "@type": "City",
+      "name": "Chittor AP"
+    },
+    {
+      "@type": "City",
+      "name": "Coimbatore"
+    },
+    {
+      "@type": "City",
+      "name": "Hyderabad"
+    },
+    {
+      "@type": "City",
+      "name": "Indore"
+    },
+    {
+      "@type": "City",
+      "name": "Karimnagar"
+    },
+    {
+      "@type": "City",
+      "name": "Mumbai"
+    },
+    {
+      "@type": "City",
+      "name": "Namakkal"
+    },
+    {
+      "@type": "City",
+      "name": "Raipur"
+    },
+    {
+      "@type": "City",
+      "name": "Salem"
+    },
+    {
+      "@type": "City",
+      "name": "Tirupati"
+    },
+    {
+      "@type": "City",
+      "name": "Secundrabad"
+    },
+    {
+      "@type": "City",
+      "name": "Vijaywada"
+    },
+    {
+      "@type": "City",
+      "name": "Warrangal"
+    }
+  ],
+  "hasMap": "https://maps.google.com/?q=Archidply+Décor,+Bangalore",
+  "sameAs": "<%=Request.Url.AbsoluteUri %>"
+}
+    </script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
@@ -74,7 +263,7 @@
                 height="0" width="0" style="display: none; visibility: hidden"></iframe>
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
-       
+
         <header id="header"
             class="header header-sticky header-sticky-smart disable-transition-all z-index-5">
             <div class="sticky-area">
@@ -593,197 +782,7 @@ Karnataka 560051
         <%--serch modal end--%>
     </form>
 
-    <script src="/assets/vendors/bootstrap/js/bootstrap.bundle.js"></script>
-    <script src="/assets/vendors/clipboard/clipboard.min.js"></script>
-    <script src="/assets/vendors/vanilla-lazyload/lazyload.min.js"></script>
-    <script src="/assets/vendors/waypoints/jquery.waypoints.min.js"></script>
-    <script src="/assets/vendors/lightgallery/lightgallery.min.js"></script>
-    <script src="/assets/vendors/lightgallery/plugins/zoom/lg-zoom.min.js"></script>
-    <script src="/assets/vendors/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script>
-    <script src="/assets/vendors/lightgallery/plugins/video/lg-video.min.js"></script>
-    <script src="/assets/vendors/lightgallery/plugins/vimeoThumbnail/lg-vimeo-thumbnail.min.js"></script>
-    <script src="/assets/vendors/isotope/isotope.pkgd.min.js"></script>
-    <script src="/assets/vendors/slick/slick.min.js"></script>
-    <script src="/assets/vendors/gsap/gsap.min.js"></script>
-    <script src="/assets/vendors/gsap/ScrollToPlugin.min.js"></script>
-    <script src="/assets/vendors/gsap/ScrollTrigger.min.js"></script>
-    <script src="/assets/vendors/mapbox-gl/mapbox-gl.min.js"></script>
-    <script src="/assets/js/theme.min.js"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/Pages/user-master.js"></script>
-    <script src="/Admin/assets/plugins/sweetalerts/custom-sweetalert.js"></script>
-    <script src="/Admin/assets/plugins/sweetalerts/sweetalert2.min.js"></script>
-    <script src="/Admin/assets/plugins/sweetalerts/sweetalert.js"></script>
-    <script src="/Admin/assets/js/InputValidator.js"></script>
-    <script src="/Admin/assets/plugins/flatpickr/flatpickr.min.js"></script>
-    <script src="/Admin/assets/plugins/tinymce/tinymce.min.js"></script>
-    <script src="/Admin/assets/libs/fSelect/fSelect.js"></script>
-    <script>
-        $(document).ready(function () {
 
-
-            var maxHeight1 = Math.max.apply(null, $(".mega-menu .megamenu-shop h6").map(function () {
-                return $(this).height();
-            }).get());
-            $(".mega-menu .megamenu-shop h6").css("min-height", maxHeight1);
-
-
-
-            DecimalInputValidator.init('.decimalInput');
-            TaxValidator.init('.taxPercentInput');
-            OnlyNumbersValidator.init('.numberOnlyInput,.onlyNum,.numberonly');
-            OnlyAlphabetsValidator.init('.alphabetsOnlyInput,.acceptOnlyAlpha');
-        });
-        /* var f1 = flatpickr(document.getElementsByClassName('datepicker'), {
-             //enableTime: true,
-             dateFormat: "d-M-Y",
-         });*/
-        //min 12 years
-        var date1 = new Date();
-        date1.setDate(date1.getDate() - 4380);
-        var f2 = flatpickr(document.getElementsByClassName('datepicker-dob'), {
-            //enableTime: true,
-            dateFormat: "d-M-Y",
-            maxDate: date1
-        });
-        var date2 = new Date();
-        date2.setDate(date2.getDate());
-        var f3 = flatpickr(document.getElementsByClassName('today_Datepicker'), {
-            //enableTime: true,
-            dateFormat: "d-M-Y",
-            minDate: date2
-        });
-        var f4 = flatpickr(document.getElementsByClassName('today_datepicker_with_time'), {
-            enableTime: true,
-            dateFormat: "Y-m-d H:i",
-            minDate: date2,
-            time_24hr: false
-        });
-        function example_image_upload_handler(blobInfo, success, failure, progress) {
-            var xhr, formData;
-            xhr = new XMLHttpRequest();
-            xhr.withCredentials = false;
-            xhr.open('POST', 'file-upload.ashx');
-            //xhr.upload.onprogress = function (e) {
-            //    progress(e.loaded / e.total * 100);
-            //};
-            xhr.onload = function () {
-                var json;
-                if (xhr.status === 403) {
-                    failure('HTTP Error: ' + xhr.status, { remove: true });
-                    return;
-                }
-                if (xhr.status < 200 || xhr.status >= 300) {
-                    failure('HTTP Error: ' + xhr.status);
-                    return;
-                }
-                json = JSON.parse(xhr.responseText);
-                if (!json || typeof json.location != 'string') {
-                    failure('Invalid JSON: ' + xhr.responseText);
-                    return;
-                }
-                success(json.location);
-            };
-            xhr.onerror = function () {
-                failure('Image upload failed due to a XHR Transport error. Code: ' + xhr.status);
-            };
-            formData = new FormData();
-            formData.append('file', blobInfo.blob(), blobInfo.filename());
-            xhr.send(formData);
-        };
-        $(document).ready(function () {
-            tinymce.init({
-                selector: 'textarea.summernote',
-                convert_urls: false,
-                images_upload_url: 'file-upload.ashx',
-                skin: "<%=((Request.Cookies["lg_theme"] == null  ) ? "oxide" : Context.Request.Cookies["lg_theme"].Value == "dark" ? "oxide-dark" :"oxide" ) %>",
-                content_css: "<%=((Request.Cookies["lg_theme"] == null  ) ? "default" : Context.Request.Cookies["lg_theme"].Value == "dark" ? "dark" :"default" ) %>",
-                plugins: [
-                    'advlist', 'autolink', 'link', 'image', 'lists', 'charmap', 'preview', 'anchor', 'pagebreak',
-                    'searchreplace', 'wordcount', 'visualblocks', 'code', 'fullscreen', 'insertdatetime', 'media',
-                    'table', 'emoticons', 'template', 'help'
-                ],
-                toolbar: 'undo redo | styles | bold italic | alignleft aligncenter alignright alignjustify | ' +
-                    'bullist numlist outdent indent | link image | print preview media fullscreen | ' +
-                    'forecolor backcolor emoticons | help',
-                menubar: 'file edit view insert format tools table help',
-            });
-            $(".fSelect").fSelect();
-            $(".fs-wrap").each(function () {
-                var wrap = $(this).parent().width();
-                if (wrap > 0) {
-                    $(this).find(".fs-dropdown").css("width", wrap);
-                } else {
-                    $(this).find(".fs-dropdown").css("width", "100%");
-                }
-            });
-            //$('.summernote').summernote({
-            //    height: 300
-            //});
-            /*$('.summernote-air').summernote({
-                airMode: true,
-                height: 150
-            });
-            $('.myTable').DataTable({
-                "lengthMenu": [30, 50, 100, 200],
-                "pageLength": 30,
-                "aoColumnDefs": [{
-                    'bSortable': false,
-                    'aTargets': ['nosort']
-                }],
-                "scrollX": !0
-            });*/
-            $(document.body).on('click', '.copyItem', function () {
-                var elem = $(this);
-                var $temp = $("<input>");
-                $("body").append($temp);
-                $temp.val("" + elem.attr("data-url")).select();
-                document.execCommand("copy");
-                $temp.remove();
-                Snackbar.show({ text: 'Copied.', duration: 10000 });
-            });
-            /*   $(".container").css("display", "block");*/
-            /*if (Sys != undefined) {
-                Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
-                function EndRequestHandler(sender, args) {
-                    $(document.body).on('click', '.copyItem', function () {
-                        var elem = $(this);
-                        var $temp = $("<input>");
-                        $("body").append($temp);
-                        $temp.val("" + elem.attr("data-url")).select();
-                        document.execCommand("copy");
-                        $temp.remove();
-                        Snackbar.show({ text: 'Link Copied.', duration: 10000 });
-                    });
-                    //$('.myTable').DataTable({
-                    //    "lengthMenu": [30, 50, 100, 200],
-                    //    "pageLength": 30,
-                    //    "scrollX": !0
-                    //});
-                    var f1 = flatpickr(document.getElementsByClassName('datepicker'), {
-                        //enableTime: true,
-                        dateFormat: "d-M-Y",
-                    });
-                    var date2 = new Date();
-                    date2.setDate(date2.getDate() - 4380);
-                    var f2 = flatpickr(document.getElementsByClassName('datepicker-dob'), {
-                        //enableTime: true,
-                        dateFormat: "d-M-Y",
-                        maxDate: date2
-                    });
-                    $(".fSelect").fSelect();
-                    $(".fs-wrap").each(function () {
-                        var wrap = $(this).parent().width();
-                        if (wrap > 0) {
-                            $(this).find(".fs-dropdown").css("width", wrap);
-                        } else {
-                            $(this).find(".fs-dropdown").css("width", "100%");
-                        }
-                    });
-                }
-            }*/
-        });
-    </script>
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
         <symbol id="icon-bedroom" viewBox="0 0 46 32">
             <path d="M44.421 15.217v-9.803c0-2.985-2.428-5.414-5.414-5.414h-31.82c-2.985 0-5.414 2.428-5.414 5.414v9.803c-1.080 0.86-1.775 2.185-1.775 3.67v4.872c0 2.587 2.105 4.692 4.692 4.692h2.406v1.744c0 0.997 0.808 1.805 1.805 1.805s1.805-0.808 1.805-1.805v-1.744h24.782v1.744c0 0.997 0.808 1.805 1.805 1.805s1.805-0.808 1.805-1.805v-1.744h2.406c2.587 0 4.692-2.104 4.692-4.692v-4.872c0-1.485-0.694-2.81-1.775-3.67zM7.188 3.609h31.82c0.995 0 1.805 0.81 1.805 1.805v8.782h-3.489v-3.489c0-1.99-1.619-3.609-3.609-3.609h-5.304c-1.99 0-3.609 1.619-3.609 3.609v3.489h-3.407v-3.489c0-1.99-1.619-3.609-3.609-3.609h-5.304c-1.99 0-3.609 1.619-3.609 3.609v3.489h-3.489v-8.782c0-0.995 0.81-1.805 1.805-1.805zM28.41 14.195v-3.489h5.304v3.489h-5.304zM12.481 14.195v-3.489h5.304v3.489h-5.304zM42.587 23.759c0 0.597-0.486 1.083-1.083 1.083h-36.812c-0.597 0-1.083-0.486-1.083-1.083v-4.872c0-0.597 0.486-1.083 1.083-1.083h36.812c0.597 0 1.083 0.486 1.083 1.083 0 0 0 4.872 0 4.872z"></path>
@@ -2013,6 +2012,198 @@ Karnataka 560051
             <i class="fa-solid fa-arrow-up"></i>
         </a>
     </div>
+
+    <script src="/assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/vendors/clipboard/clipboard.min.js"></script>
+    <script src="/assets/vendors/vanilla-lazyload/lazyload.min.js"></script>
+    <script src="/assets/vendors/waypoints/jquery.waypoints.min.js"></script>
+    <script src="/assets/vendors/lightgallery/lightgallery.min.js"></script>
+    <script src="/assets/vendors/lightgallery/plugins/zoom/lg-zoom.min.js"></script>
+    <script src="/assets/vendors/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script>
+    <script src="/assets/vendors/lightgallery/plugins/video/lg-video.min.js"></script>
+    <script src="/assets/vendors/lightgallery/plugins/vimeoThumbnail/lg-vimeo-thumbnail.min.js"></script>
+    <script src="/assets/vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="/assets/vendors/slick/slick.min.js"></script>
+    <script src="/assets/vendors/gsap/gsap.min.js"></script>
+    <script src="/assets/vendors/gsap/ScrollToPlugin.min.js"></script>
+    <script src="/assets/vendors/gsap/ScrollTrigger.min.js"></script>
+    <%--<script src="/assets/vendors/mapbox-gl/mapbox-gl.min.js"></script>--%>
+    <script src="/assets/js/theme.min.js"></script>
+    <script src="/assets/js/script.min.js"></script>
+    <script src="/assets/js/Pages/user-master.js"></script>
+    <%--    <script src="/Admin/assets/plugins/sweetalerts/custom-sweetalert.min.js"></script>
+    <script src="/Admin/assets/plugins/sweetalerts/sweetalert2.min.js"></script>
+    <script src="/Admin/assets/plugins/sweetalerts/sweetalert.min.js"></script>--%>
+    <script src="/Admin/assets/js/InputValidator.js"></script>
+    <script src="/Admin/assets/plugins/flatpickr/flatpickr.min.js"></script>
+    <%--<script src="/Admin/assets/plugins/tinymce/tinymce.min.js"></script>--%>
+    <script src="/Admin/assets/libs/fSelect/fSelect.js"></script>
+    <script>
+        $(document).ready(function () {
+
+
+            var maxHeight1 = Math.max.apply(null, $(".mega-menu .megamenu-shop h6").map(function () {
+                return $(this).height();
+            }).get());
+            $(".mega-menu .megamenu-shop h6").css("min-height", maxHeight1);
+
+
+
+            DecimalInputValidator.init('.decimalInput');
+            TaxValidator.init('.taxPercentInput');
+            OnlyNumbersValidator.init('.numberOnlyInput,.onlyNum,.numberonly');
+            OnlyAlphabetsValidator.init('.alphabetsOnlyInput,.acceptOnlyAlpha');
+        });
+        /* var f1 = flatpickr(document.getElementsByClassName('datepicker'), {
+             //enableTime: true,
+             dateFormat: "d-M-Y",
+         });*/
+        //min 12 years
+        var date1 = new Date();
+        date1.setDate(date1.getDate() - 4380);
+        var f2 = flatpickr(document.getElementsByClassName('datepicker-dob'), {
+            //enableTime: true,
+            dateFormat: "d-M-Y",
+            maxDate: date1
+        });
+        var date2 = new Date();
+        date2.setDate(date2.getDate());
+        var f3 = flatpickr(document.getElementsByClassName('today_Datepicker'), {
+            //enableTime: true,
+            dateFormat: "d-M-Y",
+            minDate: date2
+        });
+        var f4 = flatpickr(document.getElementsByClassName('today_datepicker_with_time'), {
+            enableTime: true,
+            dateFormat: "Y-m-d H:i",
+            minDate: date2,
+            time_24hr: false
+        });
+        function example_image_upload_handler(blobInfo, success, failure, progress) {
+            var xhr, formData;
+            xhr = new XMLHttpRequest();
+            xhr.withCredentials = false;
+            xhr.open('POST', 'file-upload.ashx');
+            //xhr.upload.onprogress = function (e) {
+            //    progress(e.loaded / e.total * 100);
+            //};
+            xhr.onload = function () {
+                var json;
+                if (xhr.status === 403) {
+                    failure('HTTP Error: ' + xhr.status, { remove: true });
+                    return;
+                }
+                if (xhr.status < 200 || xhr.status >= 300) {
+                    failure('HTTP Error: ' + xhr.status);
+                    return;
+                }
+                json = JSON.parse(xhr.responseText);
+                if (!json || typeof json.location != 'string') {
+                    failure('Invalid JSON: ' + xhr.responseText);
+                    return;
+                }
+                success(json.location);
+            };
+            xhr.onerror = function () {
+                failure('Image upload failed due to a XHR Transport error. Code: ' + xhr.status);
+            };
+            formData = new FormData();
+            formData.append('file', blobInfo.blob(), blobInfo.filename());
+            xhr.send(formData);
+        };
+        $(document).ready(function () {
+           <%-- tinymce.init({
+                selector: 'textarea.summernote',
+                convert_urls: false,
+                images_upload_url: 'file-upload.ashx',
+                skin: "<%=((Request.Cookies["lg_theme"] == null  ) ? "oxide" : Context.Request.Cookies["lg_theme"].Value == "dark" ? "oxide-dark" :"oxide" ) %>",
+                content_css: "<%=((Request.Cookies["lg_theme"] == null  ) ? "default" : Context.Request.Cookies["lg_theme"].Value == "dark" ? "dark" :"default" ) %>",
+                plugins: [
+                    'advlist', 'autolink', 'link', 'image', 'lists', 'charmap', 'preview', 'anchor', 'pagebreak',
+                    'searchreplace', 'wordcount', 'visualblocks', 'code', 'fullscreen', 'insertdatetime', 'media',
+                    'table', 'emoticons', 'template', 'help'
+                ],
+                toolbar: 'undo redo | styles | bold italic | alignleft aligncenter alignright alignjustify | ' +
+                    'bullist numlist outdent indent | link image | print preview media fullscreen | ' +
+                    'forecolor backcolor emoticons | help',
+                menubar: 'file edit view insert format tools table help',
+            });--%>
+            $(".fSelect").fSelect();
+            $(".fs-wrap").each(function () {
+                var wrap = $(this).parent().width();
+                if (wrap > 0) {
+                    $(this).find(".fs-dropdown").css("width", wrap);
+                } else {
+                    $(this).find(".fs-dropdown").css("width", "100%");
+                }
+            });
+            //$('.summernote').summernote({
+            //    height: 300
+            //});
+            /*$('.summernote-air').summernote({
+                airMode: true,
+                height: 150
+            });
+            $('.myTable').DataTable({
+                "lengthMenu": [30, 50, 100, 200],
+                "pageLength": 30,
+                "aoColumnDefs": [{
+                    'bSortable': false,
+                    'aTargets': ['nosort']
+                }],
+                "scrollX": !0
+            });*/
+            $(document.body).on('click', '.copyItem', function () {
+                var elem = $(this);
+                var $temp = $("<input>");
+                $("body").append($temp);
+                $temp.val("" + elem.attr("data-url")).select();
+                document.execCommand("copy");
+                $temp.remove();
+                Snackbar.show({ text: 'Copied.', duration: 10000 });
+            });
+            /*   $(".container").css("display", "block");*/
+            /*if (Sys != undefined) {
+                Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+                function EndRequestHandler(sender, args) {
+                    $(document.body).on('click', '.copyItem', function () {
+                        var elem = $(this);
+                        var $temp = $("<input>");
+                        $("body").append($temp);
+                        $temp.val("" + elem.attr("data-url")).select();
+                        document.execCommand("copy");
+                        $temp.remove();
+                        Snackbar.show({ text: 'Link Copied.', duration: 10000 });
+                    });
+                    //$('.myTable').DataTable({
+                    //    "lengthMenu": [30, 50, 100, 200],
+                    //    "pageLength": 30,
+                    //    "scrollX": !0
+                    //});
+                    var f1 = flatpickr(document.getElementsByClassName('datepicker'), {
+                        //enableTime: true,
+                        dateFormat: "d-M-Y",
+                    });
+                    var date2 = new Date();
+                    date2.setDate(date2.getDate() - 4380);
+                    var f2 = flatpickr(document.getElementsByClassName('datepicker-dob'), {
+                        //enableTime: true,
+                        dateFormat: "d-M-Y",
+                        maxDate: date2
+                    });
+                    $(".fSelect").fSelect();
+                    $(".fs-wrap").each(function () {
+                        var wrap = $(this).parent().width();
+                        if (wrap > 0) {
+                            $(this).find(".fs-dropdown").css("width", wrap);
+                        } else {
+                            $(this).find(".fs-dropdown").css("width", "100%");
+                        }
+                    });
+                }
+            }*/
+        });
+    </script>
     <script>document.addEventListener("DOMContentLoaded", function () {
             let menuItem = document.getElementById("menu-item-shop-canvas");
             let dropdownMenu = document.querySelector(".dropdown-menu.mega-menu");

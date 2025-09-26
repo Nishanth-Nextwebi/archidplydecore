@@ -41,7 +41,7 @@ public partial class my_profile : System.Web.UI.Page
                 txtAdd.Text = Details[0].AddressLine1;
                 if (Details[0].ImageUrl != "")
                 {
-                    strProfileimg = "<img src='/" + Details[0].ImageUrl + "' style='height:196px; width:196px;' class='mb-9 rounded-pill'/>";
+                    strProfileimg = "<img src='/" + Details[0].ImageUrl + "' alt='img' style='height:196px; width:196px;' class='mb-9 rounded-pill'/>";
                 }
               /*  else
                 {

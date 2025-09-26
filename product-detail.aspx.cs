@@ -14,7 +14,7 @@ using System.Web.UI.WebControls;
 public partial class product_detail : System.Web.UI.Page
 {
     SqlConnection conAP = new SqlConnection(ConfigurationManager.ConnectionStrings["conAP"].ConnectionString);
-    public string strProductGallery, strProductName, strProducts, strRelatedProducts, strProductCategory, strUrl = "";
+    public string strProductGallery, strProductName, strProducts, strMetaDescription, strScmeaImages, strRelatedProducts, strProductCategory, strUrl = "";
     protected void Page_Load(object sender, EventArgs e)
     {
         strUrl = Convert.ToString(RouteData.Values["subcaturl"]);
@@ -47,6 +47,7 @@ public partial class product_detail : System.Web.UI.Page
                     strProductCategory = prod.Category;
                     Page.Title = prod.PageTitle;
                     Page.MetaDescription = prod.MetaDesc;
+                    strMetaDescription = prod.MetaDesc;
                     Page.MetaKeywords = prod.MetaKey;
                     string productName = "";
                     if (prod.Category == "2")
@@ -138,6 +139,7 @@ public partial class product_detail : System.Web.UI.Page
                         {
                             menuImg += @"<img src='/" + gal.Images + @"' lass='cursor-pointer lazy-image mx-3 mx-xl-0 px-0 mb-xl-7' width='75' height='100' title='' alt='img'/>";
                             mainImg += @"<a href='/" + gal.Images + @"' data-gallery='product-gallery' data-thumb-src='/" + gal.Images + @"' alt='img'><img src='/" + gal.Images + @"' width='540' height='720' title='' class='h-auto lazy-image' alt='img'/></a>";
+                            strScmeaImages += @"'https://archidplydecor.com/" + gal.Images + @"',";
                         }
 
 

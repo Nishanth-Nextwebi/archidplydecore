@@ -29,7 +29,7 @@ public partial class DashBoard : System.Web.UI.MasterPage
             {
                 if (Details[0].ImageUrl != "")
                 {
-                    strProfileimg = "<img src='/" + Details[0].ImageUrl + "' style='height:40px; width:40px;' class='rounded-pill'/>";
+                    strProfileimg = "<img src='/" + Details[0].ImageUrl + "' alt='img' style='height:40px; width:40px;' class='rounded-pill'/>";
                 }
                 /*else
                 {
