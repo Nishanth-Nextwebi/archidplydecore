@@ -153,34 +153,34 @@
     <link
         rel="preload"
         as="image"
-        href="https://archidplydecor.com/UploadImages/013393a0-79e1-4726-9691-d20e8adc3c90-deskBanImg.webp"
+        href="https://archidplydecor.com/UploadImages/013393a0-79e1-4726-9691-d20e8adc3c90-deskBanImg.webp" alt="Plywood furniture & wooden floor finish"
         type="image/webp"
         fetchpriority="high" />
     <link
         rel="preload"
         as="image"
-        href="https://archidplydecor.com/UploadImages/7840fc96-4881-4668-abf5-7190e17173c2-deskBanImg.webp"
-        type="image/webp"
-        fetchpriority="high" />
-
-    <link
-        rel="preload"
-        as="image"
-        href="https://archidplydecor.com/UploadImages/f8baab95-d01b-4d4d-84dd-6f5d30011e09-deskBanImg.webp"
+        href="https://archidplydecor.com/UploadImages/7840fc96-4881-4668-abf5-7190e17173c2-deskBanImg.webp" alt="Wooden wall panel wardrobe doors"
         type="image/webp"
         fetchpriority="high" />
 
     <link
         rel="preload"
         as="image"
-        href="https://archidplydecor.com/UploadImages/cb840c86-075d-45cb-afff-61234b0e3c14-deskBanImg.webp"
+        href="https://archidplydecor.com/UploadImages/f8baab95-d01b-4d4d-84dd-6f5d30011e09-deskBanImg.webp" alt="Wooden console Decor"
         type="image/webp"
         fetchpriority="high" />
 
     <link
         rel="preload"
         as="image"
-        href="https://archidplydecor.com/UploadImages/d4b951a8-526b-479d-8931-13e2cda164ea-deskBanImg.webp"
+        href="https://archidplydecor.com/UploadImages/cb840c86-075d-45cb-afff-61234b0e3c14-deskBanImg.webp" alt="Office desks"
+        type="image/webp"
+        fetchpriority="high" />
+
+    <link
+        rel="preload"
+        as="image"
+        href="https://archidplydecor.com/UploadImages/d4b951a8-526b-479d-8931-13e2cda164ea-deskBanImg.webp" alt="Plywood wall panels"
         type="image/webp"
         fetchpriority="high" />
     <script type="application/ld+json">
