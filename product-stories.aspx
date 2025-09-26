@@ -87,13 +87,13 @@
     </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <main id="content" class="wrapper layout-page overflow-hidden investor-contact  pb-10" style="background: #f1efec url('assets/imgs/bg-img2.png'); background-repeat: no-repeat; background-position: right; background-attachment: fixed">
+    <main id="content" class="wrapper layout-page overflow-hidden investor-contact  pb-10" alt="Background image" style="background: #f1efec url('assets/imgs/bg-img2.png'); background-repeat: no-repeat; background-position: right; background-attachment: fixed">
 
         <section class="position-relative custom-overlay  new-banner-head" id="about_introduction">
 
-            <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100   light-mode-img" data-bg-src="assets/imgs/ban1/2.png">
+            <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100   light-mode-img" data-bg-src="assets/imgs/ban1/2.png" alt="Soft green-blue curves">
             </div>
-            <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100" data-bg-src="assets/imgs/ban1/2.png">
+            <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100" data-bg-src="assets/imgs/ban1/2.png" alt="Soft green-blue curves">
             </div>
 
             <div class="position-relative z-index-2 container py-10 py-md-15 py-lg-22">

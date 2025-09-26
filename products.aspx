@@ -33,7 +33,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <main id="content" class="wrapper layout-page product-category">
         <section class="position-relative custom-overlay  new-banner-no-bg" id="about_introduction" >
-            <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100  light-mode-img" data-bg-src="/assets/imgs/ban1/2.png">
+            <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100  light-mode-img" data-bg-src="/assets/imgs/ban1/2.png" alt="Soft green-blue curves">
             </div>
         </section>
         <div class="container">

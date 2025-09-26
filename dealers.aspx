@@ -115,7 +115,7 @@
         </div>
     </section>-->
 
-    <main id="content" class="wrapper layout-page investor-contact pt-5 pb-10" style="background: #f1efec url('assets/imgs/bg-img2.png'); background-repeat: no-repeat; background-position: right; background-attachment: fixed">
+    <main id="content" class="wrapper layout-page investor-contact pt-5 pb-10" alt="Background image" style="background: #f1efec url('assets/imgs/bg-img2.png'); background-repeat: no-repeat; background-position: right; background-attachment: fixed">
 
 
         <div class="container">

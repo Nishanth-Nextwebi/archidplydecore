@@ -254,7 +254,7 @@
                         <img class="lazy-image object-fit-cover card-img light-mode-img"
                             src="#"
                             data-src="assets/imgs/pureply5.png"
-                            alt="Intensive Glow C&#43; Serum" />
+                            alt="Wooden cabinet" />
                         <div class="card-img-overlay d-inline-flex flex-column p-md-5 p-lg-12 m-md-2 p-8 justify-content-start align-items-start">
                             <!-- <h6
                           class="card-subtitle ls-1 fs-15px mb-5 fw-semibold text-body-calculate"
@@ -265,7 +265,7 @@
                           Intensive Glow C&#43; Serum
                         </h3> -->
                             <img src="/assets/imgs/pplogo.png"
-                                alt="img"
+                                alt="Archidply Decor Pureply logo"
                                 class="sister-company" />
                             <div class="mt-7">
                                 <a href="/products-categories/pureply" class="btn btn-white px-6 shadow-sm">Explore More</a>
@@ -278,7 +278,7 @@
                         <img class="lazy-image object-fit-cover card-img light-mode-img"
                             src="#"
                             data-src="assets/imgs/bonvivantImg.png"
-                            alt="25% off Everything" />
+                            alt="Bon Vivant veneer tabletop" />
                         <div class="card-img-overlay d-inline-flex flex-column p-md-5 p-lg-12 m-md-2 p-8 justify-content-start align-items-start">
                             <!-- <h3 class="card-title lh-45px fs-3 pe-15">
                           25% off Everything
@@ -289,7 +289,7 @@
                           Makeup with extended range in colors for every human.
                         </p> -->
                             <img src="assets/imgs/bonvivant-decorative2.png"
-                                alt=""
+                                alt="Bon Vivant decorative veneers and laminates"
                                 class="sister-company" />
                             <div class="mt-7">
                                 <a href="products-categories/bon-vivant" class="btn btn-white shadow-sm">Explore More</a>
@@ -514,9 +514,9 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-6 position-relative order-lg-0 order-1" data-animate="fadeIn">
                         <div class="about-img">
-                            <img class="img-1" src="assets/imgs/about-img-1.png" alt />
-                            <img class="img-2" src="assets/imgs/about-img-2.png" alt />
-                            <img class="img-3" src="assets/imgs/about-img-3.png" alt />
+                            <img class="img-1" src="assets/imgs/about-img-1.png" alt="Premium wood veneers" />
+                            <img class="img-2" src="assets/imgs/about-img-2.png" alt="Wooden wall panel and furniture" />
+                            <img class="img-3" src="assets/imgs/about-img-3.png" alt="Wood veneer cabinet" />
                         </div>
                     </div>
                     <div class="col-lg-6 px-lg-10 py-lg-0 py-0 order-lg-1 order-0 new-bottom-why" data-animate="fadeInUp">
@@ -737,7 +737,7 @@
                             Prelaminated Particle Board GreenPro|images_/certificates/PrelamPartgreenproC.jpg">
                             <img class="w-auto mx-auto light-mode-img"
                                 src="images_/certificates/greenpro.jpg"
-                                alt="Green Certificates" />
+                                alt="GreenPro certified plywood" />
                         </a>
                     </div>
                     <%--pdf--%>
@@ -755,7 +755,7 @@
                             ">
                             <img class="w-auto mx-auto light-mode-img"
                                 src="images_/certificates/bis.png"
-                                alt="BUREAU OF INDIAN STANDARDS" />
+                                alt="BIS certified plywood" />
                         </a>
 
                     </div>
@@ -769,7 +769,7 @@
                             data-image="Archidply Decor Ltd|images_/certificates/Archidply%20Decor%20Ltd-%20IGBC.pdf">
                             <img class="w-auto mx-auto light-mode-img"
                                 src="images_/certificates/igbc.jpg"
-                                alt="Certificate Updated Soon" />
+                                alt="IGBC certified plywood" />
                         </a>
                     </div>
                     <div class="client-logo-item" data-animate="fadeInUp">
@@ -789,7 +789,7 @@
     ">
                             <img class="w-auto mx-auto light-mode-img"
                                 src="images_/certificates/warrenty4.png"
-                                alt="The Beast" />
+                                alt="Warranty assurance" />
                         </a>
                     </div>
                     <%-- <div class="client-logo-item" data-animate="fadeInUp">
@@ -813,7 +813,7 @@
                             data-image="Updated soon">
                             <img class="w-auto mx-auto light-mode-img"
                                 src="images_/certificates/indonesian-legel-wood.png"
-                                alt="Hayden" />
+                                alt="Indonesian Legal Wood" />
                         </a>
                     </div>
 
@@ -826,7 +826,7 @@
                             data-image="Updated soon">
                             <img class="w-auto mx-auto light-mode-img"
                                 src="images_/certificates/pefc.png"
-                                alt="PEFC" />
+                                alt="PEFC certified plywood" />
                         </a>
                     </div>
                 </div>
@@ -1132,7 +1132,7 @@
 
         <section id="mainCTASec">
             <div class=" bg-overlay w-100 ">
-                <img src="/assets/imgs/ban2/7.png" class="w-100" alt="img" />
+                <img src="/assets/imgs/ban2/7.png" class="w-100" alt="Plywood sideboard decorative finish" />
             </div>
             <div class="text-center z-index-2 textWrap">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
@@ -1231,7 +1231,7 @@
                     <div class="col-lg-6" data-animate="fadeInRight">
                         <div class="fact-card">
                             <div class="bg-image new-fact-img video-01 d-flex justify-content-center align-items-center  position-relative py-8 py-lg-0 py-md-23 lazy-bg"
-                                data-bg-src="images_/show/factory.jpg" style="height: 400px">
+                                data-bg-src="images_/show/factory.jpg" style="height: 400px" alt="Plywood factory">
 
                                 <a href="https://youtu.be/PZIJHQk4Z9A" class="view-video iframe-link video-btn d-flex justify-content-center align-items-center fs-30px lh-115px btn btn-outline-light border border-white border-2 rounded-circle transition-all-1">
                                     <svg class="icon">
@@ -1244,7 +1244,7 @@
                     <div class="col-lg-6" data-animate="fadeInRight">
                         <div class="fact-card">
                             <div class="bg-image new-fact-img video-01 d-flex justify-content-center align-items-center position-relative py-8  py-lg-0 py-md-23 lazy-bg"
-                                data-bg-src="images_/s1/SDP_4622.jpg" style="height: 400px">
+                                data-bg-src="images_/s1/SDP_4622.jpg" alt="Plywood & laminate showroom display" style="height: 400px">
                                 <a href="https://youtu.be/vwW0iTGBohU?si=L20-Yrq4jZyZmMxI" class="view-video iframe-link video-btn d-flex justify-content-center align-items-center fs-30px lh-115px btn btn-outline-light border border-white border-2 rounded-circle transition-all-1">
                                     <svg class="icon">
                                         <use xlink:href="#icon-play-fill"></use></svg></a>

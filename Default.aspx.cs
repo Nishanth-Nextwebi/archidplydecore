@@ -42,7 +42,7 @@ public partial class _Default : System.Web.UI.Page
                 Resources += @"<div class='col-xl-3 col-md-4 col-4 animate__fadeInUp animate__animated' data-animate='fadeInUp'>
                         <div class='icon-box icon-box-style-1 card border-0 text-center'>
                             <div class='icon-box-icon card-img text-primary resource-img'>
-                                <img src='/" + nb.Image + @"' width='65' alt='img' />
+                                <img src='/" + nb.Image + @"' width='65' alt='"+nb.Title + @"' />
                             </div>
                             <div class='icon-box-content card-body pt-4'>
                                 <h3 class='icon-box-title card-title fs-5 mb-0 pb-0'>" + nb.Title + @"</h3>
@@ -86,11 +86,11 @@ public partial class _Default : System.Web.UI.Page
                     var vlink = "";
                     if (s.Link != "")
                     {
-                        vlink += @"<div class='bg-image new-story-img video-01 d-flex justify-content-center align-items-center h-lg-85 position-relative py-18 py-lg-0 py-md-23 lazy-bg' data-bg-src='/" + s.Image + @"' alt='img'><a href='" + s.Link + @"' class='view-video iframe-link video-btn d-flex justify-content-center align-items-center fs-30px lh-115px btn btn-outline-light border border-white border-2 rounded-circle transition-all-1'><svg class='icon'><use xlink:href='#icon-play-fill'></use></svg></a></div>";
+                        vlink += @"<div class='bg-image new-story-img video-01 d-flex justify-content-center align-items-center h-lg-85 position-relative py-18 py-lg-0 py-md-23 lazy-bg' data-bg-src='/" + s.Image + @"' alt='"+s.Title + @"'><a href='" + s.Link + @"' class='view-video iframe-link video-btn d-flex justify-content-center align-items-center fs-30px lh-115px btn btn-outline-light border border-white border-2 rounded-circle transition-all-1'><svg class='icon'><use xlink:href='#icon-play-fill'></use></svg></a></div>";
                     }
                     else
                     {
-                        vlink += @"<a class='new-story-img' href='/" + s.Image + @"' data-gallery='gal22' data-thumb-src='/" + s.Image + @"' alt='img'><img  src='#' data-src='/" + s.Image + "' class='img-fluid lazy-image h-auto new-story-img'  alt='Unavailable' alt='img'></a>";
+                        vlink += @"<a class='new-story-img' href='/" + s.Image + @"' data-gallery='gal22' data-thumb-src='/" + s.Image + @"' alt='"+s.Title + @"'><img  src='#' data-src='/" + s.Image + "' class='img-fluid lazy-image h-auto new-story-img'  alt='"+s.Title + @"'></a>";
                     }
                     List<StoriesGallery> StoreGal = StoriesGallery.GetGallery(conAP, Convert.ToString(s.Id));
                     if (StoreGal.Count > 0)
@@ -98,7 +98,7 @@ public partial class _Default : System.Web.UI.Page
                         foreach (StoriesGallery sg in StoreGal)
                         {
                             var id = "galleries" + sg.Id;
-                            galImgs += @"<a class='new-story-img' href='/" + sg.Images + @"' data-gallery='"+id+@"' data-thumb-src='/" + sg.Images + @"'><img src='/" + sg.Images + @"' data-src='/" + sg.Images + "' class='img-fluid lazy-image h-auto' alt='Unavailable'></a>";
+                            galImgs += @"<a class='new-story-img' href='/" + sg.Images + @"' data-gallery='"+id+@"' data-thumb-src='/" + sg.Images + @"'><img src='/" + sg.Images + @"' data-src='/" + sg.Images + "' class='img-fluid lazy-image h-auto' alt='Story Gallery'></a>";
                         }
 
 
@@ -117,7 +117,7 @@ public partial class _Default : System.Web.UI.Page
                                     <div class='container-fluid'>
                                         <div class='px-md-6'>
 <div class=""mx-n6 slick-slider"" data-slick-options='{""slidesToShow"": 1,""infinite"":false,""autoplay"":true,""dots"":true,""arrows"":false,""responsive"":[{""breakpoint"": 1366,""settings"": {""slidesToShow"":1 }},{""breakpoint"": 992,""settings"": {""slidesToShow"":1}},{""breakpoint"": 768,""settings"": {""slidesToShow"": 1}},{""breakpoint"": 576,""settings"": {""slidesToShow"": 1}}]}'>
-                                                " + galImgs + vlink + @"                                           
+                                                " + galImgs + vlink + @" alt='"+s.Title+@"'                                           
                                                  </div>
                                         </div>
                                     </div>
@@ -150,7 +150,7 @@ public partial class _Default : System.Web.UI.Page
                     <article class='card card-post-grid-3 bg-transparent border-0 animate__fadeInUp animate__animated' data-animate='fadeInUp'>
                         <figure class='card-img-top mb-8 position-relative'>
                             <a href='/blog/" + blog.Url + "' class='hover-shine hover-zoom-in d-block' title='" + blog.Title + @"' tabindex='0'>
-                                <img data-src='" + blog.ImageUrl + @"' class='img-fluid w-100 loaded' alt='unavailable' width='450' height='290' src='" + blog.ImageUrl + @"' loading='lazy' data-ll-status='loaded'>
+                                <img data-src='" + blog.ImageUrl + @"' class='img-fluid w-100 loaded' alt='"+blog.Title + @"' width='450' height='290' src='" + blog.ImageUrl + @"' loading='lazy' alt='"+blog.Title+@"' data-ll-status='loaded'>
                             </a>
                         </figure>
                         <div class='card-body p-0'>
@@ -215,7 +215,7 @@ public partial class _Default : System.Web.UI.Page
                 {
                     strTags += @" <div>
                         <div class='card border-0 rounded-0 hover-zoom-in hover-shine'>
-                            <img class='lazy-image card-img object-fit-cover new-heigh' src='/" + t.ImageUrl + @"'  width='330' height='450' alt='Not Avail' />
+                            <img class='lazy-image card-img object-fit-cover new-heigh' src='/" + t.ImageUrl + @"'  width='330' height='450' alt='"+t.SubCategoryName + @"' />
                             <div class='card-img-overlay d-inline-flex flex-column p-lg-8 p-4 justify-content-end text-center bg-dark bg-opacity-25'>
                                 <h3 class='card-title new-oneline text-white lh-25px lh-lg-45px font-primary fw-normal fs-6 fs-lg-4'>" + t.SubCategoryName + @"
                                 </h3>
@@ -295,7 +295,7 @@ public partial class _Default : System.Web.UI.Page
       </div>
  
        <div class='w-100 h-100    z-index-1 bg-overlay position-absolute'>
-                        <img src='" + ban.DesktopImage + @"' class=""w-100"" />
+                        <img src='" + ban.DesktopImage + @"' alt='"+ban.BannerTitle + @"' class=""w-100"" />
                     </div>
   </div></div>";
                     //mobile
@@ -311,7 +311,7 @@ public partial class _Default : System.Web.UI.Page
           </div>
       </div>
        <div class='w-100 h-100   z-index-1 bg-overlay position-absolute'>
-                        <img src='" + ban.MobileImage + @"' alt='img' class=""w-100 bg-overlay"" />
+                        <img src='" + ban.MobileImage + @"' alt='"+ ban.BannerTitle + @"' class=""w-100 bg-overlay"" />
                     </div>
   </div></div>";
 

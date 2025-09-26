@@ -10,7 +10,7 @@
     <script src="/Admin/assets/js/jquery-3.6.0.min.js"></script>
     <link href="/Admin/assets/plugins/sweetalerts/sweetalert.css" rel="stylesheet" />
     <link href="/Admin/assets/plugins/sweetalerts/sweetalert2.min.css" rel="stylesheet" />
-    <link rel="icon" href="/assets/imgs/archidply-favicon.png" />
+    <link rel="icon" href="/assets/imgs/archidply-favicon.png" alt="Archidply Decor favicon logo"/>
     <script src="/assets/vendors/bootstrap/bootstrap-notify.min.js"></script>
     <script src="/assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="/assets/vendors/bootstrap/popper.min.js"></script>
@@ -164,12 +164,12 @@
                                 src="/assets/imgs/logo.png"
                                 width="179"
                                 height="26"
-                                alt="Archidply Logo" />
+                                alt="Archidply Decor logo" />
                             <img class="dark-mode-img"
                                 src="/assets/imgs/logo.png"
                                 width="179"
                                 height="26"
-                                alt="Archidply Logo" />
+                                alt="Archidply Decor logo" />
                         </a>
                     </div>
                     <div class="icons-actions d-flex justify-content-end w-xl-50 fs-28px text-body-emphasis">
@@ -566,7 +566,7 @@
             <div class="row">
                 <div class="col-lg-5 col-12 mb-13 mb-lg-0">
                     <div class="mb-6 footer-logo">
-                        <img src="/assets/imgs/logo.png" width="300" alt="" />
+                        <img src="/assets/imgs/logo.png" width="300" alt="Archidply Decor logo" />
                     </div>
                     <p class="lh-2 me-xl-24 mb-lg-8 mb-9">
                         Our products are crafted with care, ensuring that you receive only

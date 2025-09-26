@@ -51,7 +51,7 @@ public partial class products : System.Web.UI.Page
                             strCategoriesDetails += @"<div class='col-lg-4 col-md-4 col-6  mb-lg-8 mb-0 mb-md-0 p-lg-4 p-md-3 p-1 ' data-animate='fadeInUp'>
                                     <div class='card border-0 mb-10'>
                                         <div class='image-box-4'>
-                                            <img class='lazy-image img-fluid lazy-image light-mode-img' src='/" + e.ProductImage + @"' width='960' height='640' alt='unavialable'>
+                                            <img class='lazy-image img-fluid lazy-image light-mode-img' src='/" + e.ProductImage + @"' width='960' height='640' alt='"+e.ProductName + @"'>
                                         </div>
                                         <div class='card-body text-body-emphasis pt-9 mt-2'>
                                             <h5 class='card-titletext-decoration-none fs-4 mb-4 d-block fw-semibold'><a class='color-inherit text-decoration-none' href='/products/" + e.ProductUrl + @"'>" + e.ProductName + @"</a></h5>

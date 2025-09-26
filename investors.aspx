@@ -33,9 +33,9 @@
     <main id="content" class="wrapper layout-page">
         <section class="position-relative custom-overlay" id="about_introduction">
 
-            <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100   light-mode-img" data-bg-src="assets/imgs/ban1/2.png">
+            <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100   light-mode-img" data-bg-src="assets/imgs/ban1/2.png" alt="Soft green-blue curves">
             </div>
-            <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100" data-bg-src="assets/imgs/ban1/2.png">
+            <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100" data-bg-src="assets/imgs/ban1/2.png" alt="Soft green-blue curves">
             </div>
 
             <div class="position-relative z-index-2 container py-10 py-md-15 py-lg-22">

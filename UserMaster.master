@@ -14,13 +14,13 @@
     <script src="/Admin/assets/js/jquery-3.6.0.min.js"></script>
     <%-- <link href="/Admin/assets/plugins/sweetalerts/sweetalert.css" rel="stylesheet" hreflang="en" />
     <link href="/Admin/assets/plugins/sweetalerts/sweetalert2.min.css" rel="stylesheet" hreflang="en" />--%>
-    <link rel="icon" href="/assets/imgs/archidply-favicon.png" hreflang="en" />
+    <link rel="icon" href="/assets/imgs/archidply-favicon.png" alt="Archidply Decor favicon logo" hreflang="en" />
     <script src="/assets/vendors/bootstrap/bootstrap-notify.min.js"></script>
     <%--<script src="/assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>--%>
     <script src="/assets/vendors/bootstrap/popper.min.js"></script>
     <link href="/assets/css/responsive.min.css" rel="stylesheet" hreflang="en" />
     <%--   og image--%>
-    <meta property="og:image" content="https://www.archidplydecor.com/assets/Archidplyogimg.jpg" />
+    <meta property="og:image" content="https://www.archidplydecor.com/assets/Archidplyogimg.jpg" alt="Archidply Decor branding image" />
     <link rel="stylesheet"
         href="/assets/vendors/lightgallery/css/lightgallery-bundle.min.css" hreflang="en" />
     <link rel="stylesheet" href="/assets/vendors/fontawesome/css/all.min.css" hreflang="en" />
@@ -288,12 +288,12 @@
                                         src="/assets/imgs/logo.png"
                                         width="179"
                                         height="26"
-                                        alt="Archidply Logo" />
+                                        alt="Archidply Decor logo" />
                                     <img class="dark-mode-img"
                                         src="/assets/imgs/logo.png"
                                         width="179"
                                         height="26"
-                                        alt="Archidply Logo" />
+                                        alt="Archidply Decor logo" />
                                 </a>
                             </div>
                             <div class="icons-actions d-flex justify-content-end w-xl-50 fs-28px text-body-emphasis">
@@ -374,7 +374,7 @@
                                     <img class="light-mode-img"
                                         src="/assets/imgs/logo.png"
                                         width="250"
-                                        alt="Archidply" />
+                                        alt="Archidply Decor logo" />
                                 </a>
                             </div>
                             <div class="w-auto w-xl-50 d-flex align-items-center">
@@ -493,7 +493,7 @@
 
 
                         <div class="mb-6 footer-logo">
-                            <img src="/assets/imgs/logo.png" width="300" alt="" />
+                            <img src="/assets/imgs/logo.png" width="300" alt="Archidply Decor logo" />
                         </div>
                         <p class="lh-2 me-xl-24 mb-lg-8 mb-9">
                             Our products are crafted with care, ensuring that you receive only
@@ -753,7 +753,7 @@ Karnataka 560051
                         <a href="/" class="navbar-brand py-4 d-lg-inline-block">
                             <img src="/assets/imgs/logo.png"
                                 height="50"
-                                alt="ARCHIDPLY DECOR" />
+                                alt="Archidply Decor logo" />
                         </a>
                     </div>
                     <div class="col-xl-6 d-flex justify-content-center position-relative">

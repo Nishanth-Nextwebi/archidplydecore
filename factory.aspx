@@ -59,9 +59,9 @@
     <main id="content" class="wrapper layout-page">
         <section class="position-relative custom-overlay new-banner-head" id="about_introduction">
 
-            <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100   light-mode-img" data-bg-src="assets/imgs/ban1/2.png">
+            <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100   light-mode-img" data-bg-src="assets/imgs/ban1/2.png" alt="Soft green-blue curves">
             </div>
-            <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100" data-bg-src="assets/imgs/ban1/2.png">
+            <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100" data-bg-src="assets/imgs/ban1/2.png" alt="Soft green-blue curves">
             </div>
 
             <div class="position-relative z-index-2 container py-10 py-md-15 py-lg-22">
@@ -146,36 +146,36 @@
                      ]
                  }'>
                                     <!-- Images -->
-                                    <a href="images_/show/fac-002.jpg" data-gallery="B1" class="hover-zoom-in hover-shine card-img-overlay-hover d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/show/fac-002.jpg" alt="instagram-01" src="#">
+                                    <a href="images_/show/fac-002.jpg" alt="Factory Workers" data-gallery="B1" class="hover-zoom-in hover-shine card-img-overlay-hover d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/show/fac-002.jpg" alt="Factory Workers" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
-                                    <a href="images_/show/fac.jpg" data-gallery="B1" class="hover-zoom-in hover-shine card-img-overlay-hover d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/show/fac.jpg" alt="instagram-02" src="#">
+                                    <a href="images_/show/fac.jpg" alt="Chintamani Factory team" data-gallery="B1" class="hover-zoom-in hover-shine card-img-overlay-hover d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/show/fac.jpg" alt="Chintamani Factory team" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
-                                    <a href="images_/show/fac005.jpg" data-gallery="B1" class="hover-zoom-in hover-shine card-img-overlay-hover d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/show/fac005.jpg" alt="instagram-03" src="#">
+                                    <a href="images_/show/fac005.jpg" alt="plywood manufacturing facility" data-gallery="B1" class="hover-zoom-in hover-shine card-img-overlay-hover d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/show/fac005.jpg" alt="plywood manufacturing facility" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
-                                    <a href="images_/show/factory-00.jpg" data-gallery="B1" class="hover-zoom-in hover-shine card-img-overlay-hover d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/show/factory-00.jpg" alt="instagram-04" src="#">
+                                    <a href="images_/show/factory-00.jpg" alt="Archidply Factory" data-gallery="B1" class="hover-zoom-in hover-shine card-img-overlay-hover d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/show/factory-00.jpg" alt="Archidply Factory" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
                                     <%--<a href="images_/show/factory-07.jpg"  data-gallery="B1" class="hover-zoom-in hover-shine card-img-overlay-hover d-block">
                                         <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/show/factory-07.jpg" alt="instagram-05" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>--%>
-                                    <a href="images_/show/Factory-pic.jpg" data-gallery="B1" class="hover-zoom-in hover-shine card-img-overlay-hover d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/show/Factory-pic.jpg" alt="instagram-06" src="#">
+                                    <a href="images_/show/Factory-pic.jpg" alt="Archidply Decor Factory" data-gallery="B1" class="hover-zoom-in hover-shine card-img-overlay-hover d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/show/Factory-pic.jpg" alt="Archidply Decor Factory" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
-                                    <a href="images_/show/factory.jpg" data-gallery="B1" class="hover-zoom-in hover-shine card-img-overlay-hover d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/show/factory.jpg" alt="instagram-07" src="#">
+                                    <a href="images_/show/factory.jpg" data-gallery="B1" class="hover-zoom-in hover-shine card-img-overlay-hover d-block" alt="Plywood factory">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/show/factory.jpg" alt="Plywood factory" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
-                                    <a href="images_/show/factory01.jpg" data-gallery="B1" class="hover-zoom-in hover-shine card-img-overlay-hover d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/show/factory01.jpg" alt="instagram-08" src="#">
+                                    <a href="images_/show/factory01.jpg" alt="Manufacturing facility" data-gallery="B1" class="hover-zoom-in hover-shine card-img-overlay-hover d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/show/factory01.jpg" alt="Manufacturing facility" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
 

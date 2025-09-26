@@ -71,9 +71,9 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
     <section class="position-relative custom-overlay new-banner-head" id="about_introduction">
-        <div class="lazy-bg bg-overlay  position-absolute z-index-1 w-100 h-100   light-mode-img" data-bg-src="assets/imgs/ban1/2.png">
+        <div class="lazy-bg bg-overlay  position-absolute z-index-1 w-100 h-100   light-mode-img" data-bg-src="assets/imgs/ban1/2.png" alt="Soft green-blue curves">
         </div>
-        <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100" data-bg-src="assets/imgs/ban1/2.png">
+        <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100" data-bg-src="assets/imgs/ban1/2.png" alt="Soft green-blue curves">
         </div>
 
         <div class="position-relative z-index-2 container py-10 py-md-15 py-lg-22">
@@ -118,7 +118,7 @@
 
             <center>
                 <div class="container container-xxl pb-16 pb-lg-18 mb-lg-3 pt-0  mt-10 divNoItem">
-                    <img src="/images_/not-found.png" alt="img" width="300" height="300" />
+                    <img src="/images_/not-found.png" alt="not found" width="300" height="300" />
                     <h3 style="color: #F4986D"><strong>No products found for your search</strong></h3>
                     <a href="/contact-us" class="btn btn-outline-dark text-nowrap mt-2">Send Request</a>
                 </div>

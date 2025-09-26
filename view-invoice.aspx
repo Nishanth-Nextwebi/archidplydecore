@@ -34,7 +34,7 @@
                                         <div class="row" style="width: 100%;">
                                             <div class="col-md-6" style="width: 50%;">
                                                 <div class="invoice-logo">
-                                                    <img src="/assets/imgs/logo.png" class="img-fluid  w__70-xs-en pad-t-b-5-xs" alt="Logo">
+                                                    <img src="/assets/imgs/logo.png" class="img-fluid  w__70-xs-en pad-t-b-5-xs" alt="Archidply Decor logo">
                                                 </div>
                                             </div>
                                             <div class="col-md-6" style="width: 50%;">

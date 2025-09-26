@@ -49,9 +49,9 @@
     <main id="content" class="wrapper layout-page">
         <section class="position-relative custom-overlay new-banner-head" id="about_introduction">
 
-            <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100   light-mode-img" data-bg-src="assets/imgs/ban1/2.png" alt="img">
+            <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100   light-mode-img" data-bg-src="assets/imgs/ban1/2.png" alt="Soft green-blue curves">
             </div>
-            <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100" data-bg-src="assets/imgs/ban1/2.png" alt="img">
+            <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100" data-bg-src="assets/imgs/ban1/2.png" alt="Soft green-blue curves">
             </div>
 
             <div class="position-relative z-index-2 container py-10 py-md-15 py-lg-22">
@@ -131,12 +131,12 @@
              ]
          }'>
                                     <!-- Images -->
-                                    <a href="images_/s1/SDP_4544.jpg" data-gallery="gallery111" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s1/SDP_4544.jpg" alt="instagram-01" src="#">
+                                    <a href="images_/s1/SDP_4544.jpg" alt="Bon Vivant flooring" data-gallery="gallery111" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s1/SDP_4544.jpg" alt="Bon Vivant flooring" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
-                                    <a href="images_/s1/SDP_4575.jpg" data-gallery="gallery111" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s1/SDP_4575.jpg" alt="instagram-01" src="#">
+                                    <a href="images_/s1/SDP_4575.jpg" alt="Wooden plain doors" data-gallery="gallery111" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s1/SDP_4575.jpg" alt="Wooden plain doors" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
 
@@ -144,24 +144,24 @@
                                         <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s1/SDP_4602.jpg" alt="instagram-01" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>--%>
-                                    <a href="images_/s1/SDP_4622.jpg" data-gallery="gallery111" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s1/SDP_4622.jpg" alt="instagram-01" src="#">
+                                    <a href="images_/s1/SDP_4622.jpg" alt="Plywood & laminate showroom display" data-gallery="gallery111" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s1/SDP_4622.jpg" alt="Plywood & laminate showroom display" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
-                                    <a href="images_/s1/SDP_4678.jpg" data-gallery="gallery111" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s1/SDP_4678.jpg" alt="instagram-01" src="#">
+                                    <a href="images_/s1/SDP_4678.jpg" alt="Bon Vivant Showroom" data-gallery="gallery111" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s1/SDP_4678.jpg" alt="Bon Vivant Showroom" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
-                                    <a href="images_/s1/SDP_4712.jpg" data-gallery="gallery111" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s1/SDP_4712.jpg" alt="instagram-01" src="#">
+                                    <a href="images_/s1/SDP_4712.jpg" alt="Bon Vivant products" data-gallery="gallery111" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s1/SDP_4712.jpg" alt="Bon Vivant products" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
-                                    <a href="images_/s1/SDP_4728.jpg" data-gallery="gallery111" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s1/SDP_4728.jpg" alt="instagram-01" src="#">
+                                    <a href="images_/s1/SDP_4728.jpg" alt="Bon Vivant Collective" data-gallery="gallery111" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s1/SDP_4728.jpg" alt="Bon Vivant Collective" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
-                                    <a href="images_/s1/SDP_4731.jpg" data-gallery="gallery111" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s1/SDP_4731.jpg" alt="instagram-01" src="#">
+                                    <a href="images_/s1/SDP_4731.jpg" alt="Archidply Showroom" data-gallery="gallery111" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s1/SDP_4731.jpg" alt="Archidply Showroom" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
 
@@ -237,33 +237,33 @@
              ]
          }'>
                                     <!-- Images -->
-                                    <a href="images_/s2/s1.jpg" data-gallery="gallery222" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s2/s1.jpg" alt="instagram-01" src="#">
+                                    <a href="images_/s2/s1.jpg" alt="Wooden ladder" data-gallery="gallery222" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s2/s1.jpg" alt="Wooden ladder" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
-                                    <a href="images_/s2/s2.jpg" data-gallery="gallery222" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s2/s2.jpg" alt="instagram-01" src="#">
+                                    <a href="images_/s2/s2.jpg" alt="Products showroom" data-gallery="gallery222" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s2/s2.jpg" alt="Products showroom" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
-                                    <a href="images_/s2/s3.jpg" data-gallery="gallery222" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s2/s3.jpg" alt="instagram-01" src="#">
+                                    <a href="images_/s2/s3.jpg" alt="Archidply products showroom" data-gallery="gallery222" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s2/s3.jpg" alt="Archidply products showroom" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
-                                    <a href="images_/s2/s4.jpg" data-gallery="gallery222" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s2/s4.jpg" alt="instagram-01" src="#">
+                                    <a href="images_/s2/s4.jpg" alt="Archidply showroom " data-gallery="gallery222" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s2/s4.jpg" alt="Archidply showroom " src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
-                                    <a href="images_/s2/s5.jpeg" data-gallery="gallery222" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s2/s5.jpeg" alt="instagram-01" src="#">
+                                    <a href="images_/s2/s5.jpeg" alt="Products for preview" data-gallery="gallery222" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s2/s5.jpeg" alt="Products for preview" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
-                                    <a href="images_/s2/s6.jpeg" data-gallery="gallery222" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s2/s6.jpegg" alt="instagram-01" src="#">
+                                    <a href="images_/s2/s6.jpeg" alt="Bon Vivant & Archidply Showroom" data-gallery="gallery222" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s2/s6.jpeg" alt="Bon Vivant & Archidply Showroom" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
 
-                                    <a href="images_/s2/s7.jpeg" data-gallery="gallery222" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
-                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s2/s7.jpegg" alt="instagram-01" src="#">
+                                    <a href="images_/s2/s7.jpeg" alt="Products showroom Archidply" data-gallery="gallery222" class=" hover-zoom-in hover-shine  card-img-overlay-hover hover-zoom-in hover-shine d-block">
+                                        <img class="lazy-image img-fluid w-100" width="314" height="314" data-src="images_/s2/s7.jpeg" alt="Products showroom Archidply" src="#">
                                         <span class="card-img-overlay bg-dark bg-opacity-30"></span>
                                     </a>
 

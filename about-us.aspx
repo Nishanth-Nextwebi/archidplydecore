@@ -33,9 +33,9 @@
 
     <main id="content" class="wrapper layout-page">
         <section class="position-relative custom-overlay new-banner-head" id="about_introduction">
-            <div class="lazy-bg bg-overlay  position-absolute z-index-1 w-100 h-100   light-mode-img" data-bg-src="assets/imgs/ban1/2.png" alt="img">
+            <div class="lazy-bg bg-overlay  position-absolute z-index-1 w-100 h-100   light-mode-img" data-bg-src="assets/imgs/ban1/2.png" alt="Soft green-blue curves">
             </div>
-            <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100" data-bg-src="assets/imgs/ban1/2.png" alt="img">
+            <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100" data-bg-src="assets/imgs/ban1/2.png" alt="Soft green-blue curves">
             </div>
 
             <div class="position-relative z-index-2 container py-10 py-md-15 py-lg-22">
@@ -62,7 +62,7 @@
 
             <div class="container container-xxl">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 px-0 bg-image bg-col-lg-half-screen-left lazy-bg order-lg-0 order-1 " data-bg-src="assets/imgs/interior-design1.jpg" alt="img" data-animate="fadeInUp">
+                    <div class="col-lg-6 px-0 bg-image bg-col-lg-half-screen-left lazy-bg order-lg-0 order-1 " data-bg-src="assets/imgs/interior-design1.jpg" alt="living room and kitchen" data-animate="fadeInUp">
                         <div class="py-25 my-xl-21 my-lg-8"></div>
                     </div>
                     <div class="col-lg-6 py-lg-10 py-10 ps-lg-10 ps-xl-18  order-lg-1 order-0" data-animate="fadeInUp">
@@ -92,7 +92,7 @@
 
             <div class="container container-xxl">
                 <div class="row call-to-action-2">
-                    <div class="col-lg-6 bg-image py-25 py-lg-0 order-lg-1 order-1 bg-col-lg-half-screen-right lazy-bg" data-bg-src="assets/imgs/interior-design2.jpg" alt="img" data-animate="fadeInUp">
+                    <div class="col-lg-6 bg-image py-25 py-lg-0 order-lg-1 order-1 bg-col-lg-half-screen-right lazy-bg" data-bg-src="assets/imgs/interior-design2.jpg" alt="Plywood office interior" data-animate="fadeInUp">
                         <div class="card-img-overlay d-flex align-items-center justify-content-center w-lg-half-screen">
                         </div>
                     </div>
@@ -115,21 +115,21 @@
                                     <div class="d-flex countdown ms-n4 ms-md-n7 mt-10" data-countdown="true" data-countdown-end="Jan 27, 2024 18:24:25">
                                         <div class="countdown-item text-center px-md-7 px-4 fs-1">
                                             <span class=" fw-semibold text-primary font-primary">
-                                                <img src="assets/imgs/sustain-logo1.jpg" alt="img" /></span>
+                                                <img src="assets/imgs/sustain-logo1.jpg" alt="Indonesian legal wood" /></span>
                                         </div>
 
                                         <div class="separate fw-semibold fs-1 text-white">-</div>
 
                                         <div class="countdown-item text-center px-md-7 px-4 fs-1">
                                             <span class=" fw-semibold text-primary font-primary">
-                                                <img src="assets/imgs/sustain-logo2.jpg" alt="img" /></span>
+                                                <img src="assets/imgs/sustain-logo2.jpg" alt="PEFC Certification" /></span>
                                         </div>
 
                                         <div class="separate fw-semibold fs-1 text-white">-</div>
 
                                         <div class="countdown-item text-center px-md-7 px-4 fs-1">
                                             <span class=" fw-semibold text-primary font-primary">
-                                                <img src="assets/imgs/sustain-logo3.jpg" alt="img" /></span>
+                                                <img src="assets/imgs/sustain-logo3.jpg" alt="FSC certification" /></span>
                                         </div>
 
 
@@ -162,7 +162,7 @@
                     </div>
                     <div class="col-lg-7 order-1 order-lg-2" data-animate="fadeInRight">
                         <div class=" d-flex justify-content-center align-items-center h-lg-85 position-relative ">
-                            <img src="./assets/imgs/new-about.jpg" alt="img" class="img-fluid" />
+                            <img src="./assets/imgs/new-about.jpg" alt="Wooden dinning table" class="img-fluid" />
                             <%-- <div class="position-absolute start-0 d-none d-xl-block m-n14 ps-14 h-75 bg-section-2"></div>
                         <a href="https://www.youtube.com/watch?v=QSYS7-IJvdk" class="view-video iframe-link video-btn d-flex justify-content-center align-items-center fs-30px lh-115px btn btn-outline-light border border-white border-2 rounded-circle transition-all-1"><svg class="icon"><use xlink:href="#icon-play-fill"></use></svg></a>--%>
                         </div>
@@ -172,7 +172,7 @@
         </section>
 
 
-        <section class="pt-lg-14 pb-lg-15 pt-15 pb-md-13 pb-16 our-team" style="background: #f1efec url('assets/imgs/bg-img2.png'); background-repeat: no-repeat; background-position: right; background-attachment: fixed">
+        <section class="pt-lg-14 pb-lg-15 pt-15 pb-md-13 pb-16 our-team" alt="Background image" style="background: #f1efec url('assets/imgs/bg-img2.png'); background-repeat: no-repeat; background-position: right; background-attachment: fixed">
 
             <div class="container">
                 <div class="text-center mx-auto w-xl-40 w-lg-50 mb-12 mb-lg-7">
@@ -188,7 +188,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="card border-0 hover-change-image mb-10">
                                     <div class="position-relative overflow-hidden">
-                                        <img class="card-img img-fluid lazy-image" src="#" data-src="assets/imgs/team1/shyam.png" width="377" height="446" alt="Slava Fedutik">
+                                        <img class="card-img img-fluid lazy-image" src="#" data-src="assets/imgs/team1/shyam.png" width="377" height="446" alt="Mr. Shyam Daga">
                                     </div>
                                     <div class="card-body px-0 py-7 text-start">
                                         <h4 class="mb-1">Mr. Shyam Daga
@@ -201,7 +201,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="card border-0 hover-change-image mb-10">
                                     <div class="position-relative overflow-hidden">
-                                        <img class="card-img img-fluid lazy-image" data-bs-toggle="modal" data-bs-target="#teammodal1" src="#" data-src="assets/imgs/team1/rajiv.png" width="377" height="446" alt="Jennifer C.">
+                                        <img class="card-img img-fluid lazy-image" data-bs-toggle="modal" data-bs-target="#teammodal1" src="#" data-src="assets/imgs/team1/rajiv.png" width="377" height="446" alt="Mr. Rajiv Daga">
                                     </div>
                                     <div class="card-body px-0 py-7 text-start">
                                         <h4 class="mb-1">Mr. Rajiv Daga
@@ -214,7 +214,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="card border-0 hover-change-image mb-10">
                                     <div class="position-relative overflow-hidden">
-                                        <img class="card-img img-fluid lazy-image" data-bs-toggle="modal" data-bs-target="#teammodal2" src="#" data-src="assets/imgs/team1/hegde.png" width="377" height="446" alt="Valeriia Nadopta">
+                                        <img class="card-img img-fluid lazy-image" data-bs-toggle="modal" data-bs-target="#teammodal2" src="#" data-src="assets/imgs/team1/hegde.png" width="377" height="446" alt="Mr. K.R Hegde">
                                     </div>
                                     <div class="card-body px-0 py-7 text-start">
                                         <h4 class="mb-1">Mr. K.R Hegde</h4>
@@ -227,7 +227,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="card border-0 hover-change-image mb-10">
                                     <div class="position-relative overflow-hidden">
-                                        <img class="card-img img-fluid lazy-image" src="#" data-bs-toggle="modal" data-bs-target="#teammodal3" data-src="assets/imgs/team1/akshath.png" width="377" height="446" alt="Valeriia Nadopta">
+                                        <img class="card-img img-fluid lazy-image" src="#" data-bs-toggle="modal" data-bs-target="#teammodal3" data-src="assets/imgs/team1/akshath.png" width="377" height="446" alt="Akshatha Rai">
                                     </div>
                                     <div class="card-body px-0 py-7 text-start">
                                         <h4 class="mb-1">Akshatha Rai</h4>
@@ -239,7 +239,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="card border-0 hover-change-image mb-10">
                                     <div class="position-relative overflow-hidden">
-                                        <img class="card-img img-fluid lazy-image" src="#" data-src="assets/imgs/team1/dinesh.png" width="377" height="446" alt="Valeriia Nadopta">
+                                        <img class="card-img img-fluid lazy-image" src="#" data-src="assets/imgs/team1/dinesh.png" width="377" height="446" alt="Dinesh Kumar Marda">
                                     </div>
                                     <div class="card-body px-0 py-7 text-start">
                                         <h4 class="mb-1">Dinesh Kumar Marda
@@ -253,7 +253,7 @@
 
                                 <div class="card border-0 hover-change-image mb-10">
                                     <div class="position-relative overflow-hidden">
-                                        <img class="card-img img-fluid lazy-image" data-bs-toggle="modal" data-bs-target="#teammodal5" src="#" data-src="assets/imgs/team1/neeraj.png" width="377" height="446" alt="Valeriia Nadopta">
+                                        <img class="card-img img-fluid lazy-image" data-bs-toggle="modal" data-bs-target="#teammodal5" src="#" data-src="assets/imgs/team1/neeraj.png" width="377" height="446" alt="Neeraj Kumar Mittal">
                                     </div>
                                     <div class="card-body px-0 py-7 text-start">
                                         <h4 class="mb-1">Neeraj Kumar Mittal</h4>

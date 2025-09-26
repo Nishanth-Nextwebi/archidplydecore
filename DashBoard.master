@@ -12,7 +12,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ARCHID PLY DECOR</title>
-    <link rel="icon" href="assets/imgs/archidply-favicon.png" />
+    <link rel="icon" href="assets/imgs/archidply-favicon.png"  alt="Archidply Decor favicon logo"/>
     <link rel="stylesheet" href="/assets/vendors/lightgallery/css/lightgallery-bundle.min.css">
     <link rel="stylesheet" href="/assets/vendors/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="/assets/vendors/animate/animate.min.css">
@@ -271,8 +271,8 @@
 
                             <a href="../" class="navbar-brand py-4">
 
-                                <img class="light-mode-img" src="assets/imgs/logo.png" width="200" alt="">
-                                <img class="dark-mode-img" src="assets/imgs/logo.png" width="200" alt="">
+                                <img class="light-mode-img" src="assets/imgs/logo.png" width="200" alt="Archidply Decor logo">
+                                <img class="dark-mode-img" src="assets/imgs/logo.png" width="200" alt="Archidply Decor logo">
                             </a>
 
                             <div class="ml-auto d-flex align-items-center ">
